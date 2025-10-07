@@ -25,6 +25,7 @@
 }
 
 .block_item {
+    cursor: pointer;
     display: block;
     width: 216px;
     padding: 10px;

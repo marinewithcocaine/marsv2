@@ -1,7 +1,12 @@
 import styles from './project-block.module.css';
 import Image from 'next/image';
 
-export default function ProjectBlock({project}) {
+export default function ProjectBlock({project, handleClick}) {
+
+    function setOnClick (logo) {
+        handleClick(logo);
+    }
+
     return (
         <div className={styles.block}>
             <h2 className={styles.block_title}>
@@ -11,7 +16,7 @@ export default function ProjectBlock({project}) {
                 {
                     project.logos.map((logo, i) => {
                         return (
-                            <li key={i} className={styles.block_item}>
+                            <li onClick={() => setOnClick(logo)} key={i} className={styles.block_item}>
                                 <Image src={logo.image} alt={project.title} />
                             </li>
                         )

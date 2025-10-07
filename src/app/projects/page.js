@@ -1,12 +1,30 @@
+'use client'
+
 import Header from '@/components/header/header'
 import styles from './page.module.css'
 import ProjectBlock from '@/components/project-block/project-block'
 import { projects } from '@/public/static/project';
 import Line from '@/components/line/line';
+import Popup from '@/components/popup/popup';
+import { useState } from 'react';
 
 export default function Projects() {
+
+    const [isPopupOpened, setPopupOpened] = useState(false);
+    const [project, setProject] = useState({title: '', text: []});
+
+    function openPopup (project) {
+        setProject(project);
+        setPopupOpened(true);
+    }
+
+    function onClose () {
+        setPopupOpened(false);
+    }
+
     return (
         <main className={styles.main}>
+            <Popup isOpened={isPopupOpened} project={project} onClose={onClose}/>
             <div className={styles.container}>
                 <svg id="Layer_2" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" xlink="http://www.w3.org/1999/xlink" viewBox="0 0 582.26 313.13">
                     <g id="Layer_1-2" data-name="Layer 1">
@@ -22,7 +40,7 @@ export default function Projects() {
                 {
                     projects.map((project, i) => {
                         return (
-                            <ProjectBlock project={project} key={i} />
+                            <ProjectBlock project={project} handleClick={openPopup} key={i} />
                         )
                     })
                 }

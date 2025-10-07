@@ -1,7 +1,4 @@
-import vk1 from '../images/vk/vk1.jpg';
-import vk2 from '../images/vk/vk2.jpg';
 import vk3 from '../images/vk/vk3.jpg';
-import vk4 from '../images/vk/vk4.jpg';
 import vk5 from '../images/vk/vk5.jpg';
 import vk6 from '../images/vk/vk6.jpg';
 import zabeg1 from '../images/zabeg/zabeg1.jpeg';
@@ -47,35 +44,9 @@ import map6 from '../images/map/map6.jpeg';
 
 
 export const vkImages = [
-    {
-        src: vk1,
-        alt: 'Mars Image',
-        titles: [
-            'VK Fest в 2024 году',
-            'Более 15000 участников',
-            '8000 приняли участие в активностях на стенде'
-        ]
-    },
-    {
-        src: vk2,
-        alt: 'Mars Image',
-        titles: [
-            'VK Fest в 2024 году',
-            'Более 15000 участников',
-            '8000 приняли участие в активностях на стенде'
-        ]
-    },
+    
     {
         src: vk3,
-        alt: 'Mars Image',
-        titles: [
-            'VK Fest в 2024 году',
-            'Более 15000 участников',
-            '8000 приняли участие в активностях на стенде'
-        ]
-    },
-    {
-        src: vk4,
         alt: 'Mars Image',
         titles: [
             'VK Fest в 2024 году',
@@ -119,37 +90,38 @@ export const vkImages = [
             'Всего в мероприятии приняло участие 1000 участников',
             '500 зрителей, из них 64 были с собаками'
         ]
-    },
+    }
+]
 
+export const cinemaImages = [
     {
         src: pokaz1,
         alt: 'Mars Image',
         titles: [
-            'Провели первый dog-friendly кинопоказ к Дню собак',
+            'Провели первый dog-friendly кинопоказ ко Дню собак',
         ]
     },
     {
         src: pokaz2,
         alt: 'Mars Image',
         titles: [
-            'Провели первый dog-friendly кинопоказ к Дню собак',
+            'Провели первый dog-friendly кинопоказ ко Дню собак',
         ]
     },
     {
         src: pokaz3,
         alt: 'Mars Image',
         titles: [
-            'Провели первый dog-friendly кинопоказ к Дню собак',
+            'Провели первый dog-friendly кинопоказ ко Дню собак',
         ]
     },
     {
         src: pokaz4,
         alt: 'Mars Image',
         titles: [
-            'Провели первый dog-friendly кинопоказ к Дню собак',
+            'Провели первый dog-friendly кинопоказ ко Дню собак',
         ]
-    },
-
+    }
 ]
 
 export const officeImages = [
