@@ -1,0 +1,55 @@
+.list {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    row-gap: 6px;
+}
+
+.list_item {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    column-gap: 11px;
+    margin: 0;
+    padding: 0;
+    color: #0000A0;
+    cursor: pointer;
+    transition: all .3s linear;
+}
+
+.list_item_active {
+    font-weight: bold;
+}
+
+.list_item:hover {
+    opacity: .6;
+}
+
+.list_item:hover .circle {
+    scale: 1.2;
+}
+
+.circle {
+    z-index: 1;
+    width: 9px;
+    height: 9px;
+    background-color: #0000A0;
+    border-radius: 50%;
+    transition: all .3s linear;
+}
+
+.circle::before {
+    content: "";
+    display: inline-block;
+    vertical-align: middle;
+    padding-top: 100%;
+}
+
+.circle_active {
+    z-index: 1;
+    scale: 1.2;
+    background-color: #0000A0;
+    border-radius: 50%;
+}

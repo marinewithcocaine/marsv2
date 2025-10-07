@@ -1,0 +1,25 @@
+.main {
+    position: relative;
+    font-family: 'Montserrat';
+    background-color: #FFFAF0;
+    width: 1080px;
+    margin-right: auto;
+    margin-left: auto;
+    display: flex;
+    flex-direction: column;
+    row-gap: 100px;
+    align-items: center;
+    overflow: hidden;
+}
+
+.swipers {
+    width: 1080px;
+    padding: 30px 90px;
+    box-sizing: border-box;
+    display: grid;
+    grid-template-columns: repeat(2, 423px);
+    grid-template-rows: repeat(3, auto);
+    column-gap: 56px;
+    row-gap: 57px;
+    
+}

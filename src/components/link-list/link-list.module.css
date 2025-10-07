@@ -1,0 +1,184 @@
+.linklist {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    background-color: #f8f3ec;
+    border-radius: 50px;
+    column-gap: 37px;
+    row-gap: 37px;
+    padding: 60px;
+}
+
+.link {
+    position: relative;
+    display: flex;
+    width: 462px;
+    height: 275px;
+    border-radius: 50px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+.link_line {
+    display: block;
+    position: absolute;
+    bottom: 100px;
+    left: 100px;
+    z-index: 0;
+}
+
+.link_line_cat {
+    bottom: 150px;
+    left: -300px;
+}
+
+.link_line svg {
+    width: 1460px;
+    height: 335px;
+    fill: #fff;
+}
+
+
+
+.link_circle {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background-color: #fff;
+    z-index: 100;
+    position: absolute;
+    top: 25px;
+    right: 25px;
+    animation: circle 5s infinite;
+    display: flex;
+    justify-content: center;
+}
+
+@keyframes circle {
+    0% {
+        transform: scale(1) rotate(45deg);
+    }
+
+    50% {
+        transform: scale(1.2) rotate(0deg);
+    }
+    100% {
+        transform: rotate(45deg);
+    }
+}
+
+.svg {
+    width: 24px;
+    fill: #B7198F;
+}
+
+.svg_red {
+    fill: #E32527;
+}
+
+.svg_orange {
+    fill: #FF7832;
+}
+
+.svg_pink {
+    fill: #F00A50;
+}
+
+.svg_yellow {
+    fill: #FFC828;
+}
+
+
+.link_text {
+    color: #fff;
+    font-size: 32px;
+    line-height: 35px;
+    width: 300px;
+    position: absolute;
+    bottom: 30px;
+    left: 150px;
+}
+
+.link:nth-child(2n) .link_text {
+    left: 130px;
+}
+
+.link:nth-child(5) .link_text {
+    width: auto;
+    left: 390px;
+}
+
+.link:nth-child(5) img {
+    position: absolute;
+    left: 100px;
+}
+
+.link_violet {
+    /* background-image: url('../../public/images/main/dog1.webp'); */
+    background-color: #B7198F;
+    background-position: bottom -1px left;
+}
+
+.link_red {
+    background-color: #E32527;
+}
+
+.link_orange {
+    background-color: #FF7832;
+}
+
+.link_pink {
+    background-color: #F00A50;
+    grid-column-start: 1;
+    grid-column-end: 3;
+    width: auto;
+}
+
+.link_yellow {
+    background-color: #FFC828;
+}
+
+.link img {
+    align-self: flex-end;
+    justify-content: flex-end;
+    z-index: 10;
+}
+
+.path {
+    position: absolute;
+    bottom: 80px;
+    left: -5px;
+    width: 1230px;
+}
+
+.path_cat {
+    left: -500px;
+}
+
+.path_dog {
+    width: 1000px;
+    left: -50px;
+    bottom: 60px;
+    stroke-width: 10px;
+}
+
+.test {
+    fill: none;
+    stroke-dasharray: 2000;
+    stroke-dashoffset: 4000;
+    stroke: #fff;
+    stroke-miterlimit: 10;
+    stroke-width: 8px;
+    animation: dash 15s linear infinite;
+}
+
+.test_dog {
+    stroke-width: 10px;
+}
+
+@keyframes dash {
+    to {
+        stroke-dashoffset: 0;
+    }
+}

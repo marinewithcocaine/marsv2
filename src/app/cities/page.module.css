@@ -1,0 +1,344 @@
+.main {
+    font-family: 'Montserrat';
+    width: 1080px;
+    height: 1920px;
+    margin-right: auto;
+    margin-left: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    background-image: url('../../public/images/cities.jpg');
+    background-size: cover;
+    overflow: hidden;
+}
+
+.popup__frame {
+    width: 100%;
+    height: 100%;
+    border: none;
+}
+
+.content {
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+.link1 {
+    cursor: pointer;
+    position: absolute;
+    width: 432px;
+    top: 14px;
+    left: 85px;
+}
+
+.link_container1 .svg1 {
+    transition: all .3s linear;
+}
+
+.link_container1 g {
+    transition: all .3s linear;
+}
+
+.link_container1:hover .svg1 {
+    transform: rotate(-7deg) scale(1.04);
+}
+
+.link_container1:hover g {
+    transform: translateX(5px);
+}
+
+.link2 {
+    cursor: pointer;
+    position: absolute;
+    width: 364px;
+    top: 150px;
+    left: 666px;
+}
+
+.link_container2 .svg2 {
+    transition: all .3s linear;
+}
+
+.link_container2:hover .svg2 {
+    transform: scale(1.04);
+}
+
+.link3 {
+    cursor: pointer;
+    position: absolute;
+    width: 468px;
+    top: 311px;
+    left: 213px;
+}
+
+.link_container3 .svg3 {
+    transition: all .3s linear;
+}
+
+.link_container3:hover .svg3 {
+    transform: rotate(5deg);
+}
+
+.svg1 g,
+.svg2 g,
+.svg3 g {
+    stroke: #fff;
+    fill: #fff;
+}
+
+.svg1 {
+    fill: #b7198f;
+}
+
+.svg2 {
+    fill: #fd7832;
+}
+
+.svg3 {
+    fill: #e32527;
+}
+
+.link_title1,
+.link_title2,
+.link_title3 {
+    position: absolute;
+    top: 45%;
+    left: 15%;
+    color: white;
+    font-size: 32px;
+    line-height: 38px;
+    text-align: center;
+    letter-spacing: -0.25px;
+    width: 280px;
+}
+
+.link_title2 {
+    top: 47%;
+}
+
+.link_title3 {
+    width: 310px;
+}
+
+.circle {
+    z-index: 1;
+    position: absolute;
+    left: calc(50% - 144px);
+    top: 1064px;
+    width: 288px;
+    background-color: #fff;
+    background-image: url('../../public/images/logo.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 50%;
+}
+
+.circle::before {
+    content: "";
+    display: inline-block;
+    vertical-align: middle;
+    padding-top: 100%;
+}
+
+.path {
+    scale: 1.02;
+    position: absolute;
+    top: 40%;
+    left: 0;
+    width: 1080px;
+}
+
+.test {
+    fill: none;
+    stroke-dasharray: 2000;
+    stroke-dashoffset: 4000;
+    stroke: #fff;
+    stroke-miterlimit: 10;
+    stroke-width: 8px;
+    animation: dash 8s linear infinite;
+}
+
+@keyframes dash {
+    to {
+        stroke-dashoffset: 0;
+    }
+}
+
+.cls {
+    fill: none;
+    stroke: #fff;
+    stroke-miterlimit: 10;
+    stroke-width: 11px;
+}
+
+.business_container,
+.vigul_container {
+    position: absolute;
+    top: 1208px;
+    left: 110px;
+    width: 430px;
+    z-index: 0;
+    cursor: pointer;
+    transition: all .3s linear;
+}
+
+.business_container:hover {
+    transform: scale(1.05) translateX(-10px);
+}
+
+.vigul_container:hover {
+    transform: scale(1.05) translateX(10px);
+}
+
+.business_container g,
+.vigul_container .text {
+    fill: #fff;
+}
+
+.vigul_container {
+    left: 549px;
+}
+
+.business {
+    fill: #E42527;
+}
+
+.vigul {
+    fill: #99c43f;
+}
+
+.b1 {
+    opacity: 1;
+    animation: fade1 linear .2s;
+}
+
+@keyframes fade1 {
+    from {
+        opacity: 0;
+        transform: translateX(10px) scaleX(1.1);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateX(0px);
+    }
+}
+
+.b2 {
+    opacity: 1;
+    animation: fade2 linear .4s;
+}
+
+@keyframes fade2 {
+    0% {
+        opacity: 0;
+    }
+
+    50% {
+        opacity: 0;
+        transform: translateX(10px) scaleX(1.1);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateX(0px);
+    }
+}
+
+.b3 {
+    opacity: 1;
+    animation: fade3 linear .6s;
+}
+
+@keyframes fade3 {
+    0% {
+        opacity: 0;
+    }
+
+    60% {
+        opacity: 0;
+        transform: translateX(10px) scaleX(1.1);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateX(0px);
+    }
+}
+
+.b4 {
+    opacity: 1;
+    animation: fade4 linear .8s;
+}
+
+@keyframes fade4 {
+    0% {
+        opacity: 0;
+    }
+
+    80% {
+        opacity: 0;
+        transform: translateX(10px) scaleX(1.1);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateX(0px);
+    }
+}
+
+.v1 {
+    opacity: 1;
+    animation: fade5 linear 1s;
+}
+
+@keyframes fade5 {
+    0% {
+        opacity: 0;
+    }
+
+    80% {
+        opacity: 0;
+        transform: translateX(-10px) scaleX(1);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateX(0px);
+    }
+}
+
+.v2 {
+    opacity: 1;
+    animation: fade6 linear 1.2s;
+}
+
+@keyframes fade6 {
+    0% {
+        opacity: 0;
+    }
+
+    90% {
+        opacity: 0;
+        transform: translateX(-10px) scaleX(1);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateX(0px);
+    }
+}
+
+.v3 {
+    opacity: 1;
+    animation: fade6 linear 1.4s;
+}
+
+.v4 {
+    opacity: 1;
+    animation: fade6 linear 1.6s;
+}
+

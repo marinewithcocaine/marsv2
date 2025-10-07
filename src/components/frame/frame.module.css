@@ -1,0 +1,38 @@
+.popup {
+    position: absolute;
+    top: 0;
+    z-index: 1000;
+    width: 1080px;
+    height: 1920px;
+    background-color: rgba(0, 0, 0, 0.3);
+}
+
+.popup_closed {
+    display: none;
+}
+
+.popup__container {
+    position: absolute;
+    top: 40px;
+    left: 40px;
+    width: 1000px;
+    height: 1840px;
+    background-color: #fff;
+}
+
+.button {
+    cursor: pointer;
+    position: absolute;
+    top: 10px;
+    right: 15px;
+    z-index: 1001;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background-color: #fff;
+    border: 1px solid #000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+}

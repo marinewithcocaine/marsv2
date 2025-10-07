@@ -1,0 +1,52 @@
+.main {
+    font-family: 'Montserrat';
+    position: relative;
+    background-color: #FFFAF0;
+    width: 1080px;
+    height: 1920px;
+    margin-right: auto;
+    margin-left: auto;
+    display: flex;
+    flex-direction: column;
+    row-gap: 100px;
+    align-items: center;
+    overflow: hidden;
+}
+
+.container {
+    position: absolute;
+    width: 684px;
+    left: -40px;
+    top: -70px;
+}
+
+.container svg {
+    fill: #E32527;
+}
+
+.title {
+    position: absolute;
+    top: 120px;
+    left: 125px;
+    text-transform: uppercase;
+    color: #fff;
+    font-size: 36px;
+    line-height: 57px;
+}
+
+.content {
+    width: 100%;
+    padding: 100px 85px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 60px;
+}
+
+.path {
+    position: absolute;
+    bottom: 50px;
+    left: -50px;
+    width: 1280px;
+}

@@ -1,0 +1,30 @@
+.container {
+    position: absolute;
+    width: 582px;
+    left: 0;
+    top: -50px;
+}
+
+.title {
+    position: absolute;
+    top: 125px;
+    left: 120px;
+    text-transform: uppercase;
+    color: #fff;
+    font-size: 60px;
+    line-height: 72px;
+}
+
+
+
+.red {
+    fill: #E42527;
+}
+
+.green {
+    fill: #99C43F;
+}
+
+.project {
+    fill: #E32527;
+}

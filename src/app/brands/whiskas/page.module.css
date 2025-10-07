@@ -1,0 +1,171 @@
+.main {
+    margin: auto;
+    width: 1080px;
+    height: 1920px;
+    position: relative;
+    background-image: url('../../../public/images/whiskas/background.jpg');
+    background-size: cover;
+    overflow: hidden;
+    color: #fff;
+    font-family: 'Whiskas';
+}
+
+.content {
+    width: 100%;
+    padding-top: 100px;
+    position: relative;
+}
+
+.title {
+    top: 110px;
+    left: 53px;
+    position: absolute;
+    fill: #fff;
+    width: 635px;
+    animation: title ease-in-out 2s;
+}
+
+@keyframes title {
+    0% {
+        transform: translateY(100px);
+        opacity: 0;
+    }
+
+    100% {
+        transform: translateY(0px);
+        opacity: 1;
+    }
+}
+
+.logo {
+    width: 367px;
+    height: 285px;
+    position: absolute;
+    top: 60px;
+    right: 7px;
+}
+
+.text {
+    position: absolute;
+    width: 950px;
+    top: 450px;
+    left: 65px;
+    font-size: 32px;
+    line-height: 36px;
+    text-align: center;
+    font-weight: normal;
+}
+
+.text_bottom {
+    width: 900px;
+    left: 115px;
+    top: 1470px;
+}
+
+.subtitle {
+    position: absolute;
+    top: 600px;
+    width: 100%;
+    font-size: 30px;
+    text-align: center;
+}
+
+.info {
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    top: 610px;
+    width: 1080px;
+    padding: 70px;
+    justify-items: stretch;
+}
+
+.info__block {
+    display: flex;
+    flex-direction: column;
+    width: 420px;
+    height: 180px;
+    align-items: center;
+    background-color: #fff;
+    border-radius: 20px;
+    color: #A2259B;
+}
+
+.info__block h3 {
+    padding: 0;
+    font-family: 'Whiskas';
+    font-weight: bold;
+    font-size: 60px;
+    text-align: center;
+}
+
+.info__block p {
+    font-family: 'Whiskas';
+    font-weight: normal;
+    font-size: 24px;
+    text-align: center;
+}
+
+.animation {
+    position: absolute;
+    top: 800px;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding: 0px 80px;
+}
+
+.cat {
+    width: 500px;
+    height: 400px;
+}
+
+.cat_small {
+    width: 300px;
+    height: 225px;
+    align-self: flex-end;
+}
+
+.article {
+    position: absolute;
+    top: 1250px;
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+
+.article p {
+    padding: 0;
+    margin: 0;
+    font-size: 140px;
+    line-height: 90px;
+    color: #FFC828;
+    font-weight: lighter;
+}
+
+.article span {
+    padding-top: 10px;
+    font-size: 22px;
+    line-height: 28px;
+    width: 130px;
+    text-transform: uppercase;
+}
+
+.span {
+    position: absolute;
+    top: 1340px;
+    color: #FFC828;
+    text-transform: uppercase;
+    font-size: 20px;
+    letter-spacing: 0.7px;
+    width: 100%;
+    text-align: center;
+}
+
+.bottom {
+    position: absolute;
+    top: 1650px;
+    width: 100%;
+    text-align: center;
+    font-size: 40px;
+}

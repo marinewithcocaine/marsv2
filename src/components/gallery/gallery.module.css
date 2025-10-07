@@ -1,0 +1,99 @@
+.slider_container {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    color: #0000A0;
+    width: 100%;
+    height: 100%;
+    margin: auto;
+    font-family: 'Montserrat';
+    color: #fff;
+}
+
+.swiper {
+    width: 100%;
+    height: 100%;
+}
+
+.swiper_slide {
+    display: flex;
+    flex-direction: column;
+}
+
+.slide_info {
+    position: absolute;
+    top: 60%;
+    width: 100%;
+    height: 60%;
+    padding: 90px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 100px;
+    background: linear-gradient(to bottom,
+            rgba(0, 0, 0, 0),
+            rgba(0, 0, 0, 0.23) 50%,
+            rgba(0, 0, 0, 0.25) 100%);
+}
+
+.slide_text {
+    position: relative;
+    font-size: 36px;
+    line-height: 42px;
+    font-weight: 900;
+}
+
+.slide_text strong {
+    font-size: 100px;
+    line-height: 150px;
+}
+
+.slide_text::before {
+    bottom: -60px;
+    content: '“';
+    font-size: 100px;
+}
+
+.slide_text::after {
+    position: absolute;
+    bottom: -60px;
+    content: '”';
+    font-size: 100px;
+}
+
+.slide_text sub {
+    font-size: 100px;
+    line-height: -150px;
+}
+
+.reverse {
+    display: block;
+    position: relative;
+    bottom: 0;
+    right: 0;
+    font-size: 100px;
+    transform: scale(-1, -1);
+}
+
+.personal {
+    display: flex;
+    flex-direction: column;
+    width: 450px;
+    font-weight: 600;
+}
+
+.slide_title {
+    font-size: 30px;
+    line-height: 36px;
+    color: #fff;
+    z-index: 100;
+}
+
+.image_container img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}

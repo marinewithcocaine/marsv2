@@ -1,0 +1,94 @@
+.main {
+    position: relative;
+    font-family: 'Montserrat';
+    background-color: #FFFAF1;
+    width: 1080px;
+    min-height: 100vh;
+    height: 1920px;
+    margin-right: auto;
+    margin-left: auto;
+    display: flex;
+    flex-direction: column;
+    row-gap: 100px;
+    align-items: center;
+    overflow: hidden;
+}
+
+.container {
+    position: absolute;
+    width: 505px;
+    left: 60px;
+    top: -93px;
+}
+
+.container svg {
+    fill: #D52A29;
+}
+
+.content {
+    padding-top: 100px;
+}
+
+.title {
+    position: absolute;
+    top: 158px;
+    left: 30px;
+    text-transform: uppercase;
+    color: #fff;
+    font-size: 48px;
+    line-height: 57px;
+}
+
+.image {
+    width: 925px;
+    height: 590px;
+}
+
+.line {
+    position: absolute;
+    fill: none;
+    stroke: #e62d27;
+    stroke-width: 12px;
+    width: 1154px;
+    top: 700px;
+    left: -20px;
+    animation: dash 8s linear infinite;
+    stroke-dasharray: 2000;
+    stroke-dashoffset: 0;
+    stroke-miterlimit: 10;
+
+}
+
+@keyframes dash {
+    to {
+        stroke-dashoffset: 4000;
+    }
+}
+
+.subtitle {
+    font-size: 40px;
+    line-height: 49px;
+    color: #D52A29;
+    width: 914px;
+    padding-top: 50px;
+}
+
+.description {
+    font-size: 32px;
+    line-height: 39px;
+    color: #00009D;
+    padding-top: 50px;
+    width: 914px;
+}
+
+.images_wrapper {
+    padding-top: 110px;
+    display: flex;
+    flex-direction: row;
+    column-gap: 108px;
+}
+
+.logo {
+    width: 330px;
+    height: 330px;
+}
