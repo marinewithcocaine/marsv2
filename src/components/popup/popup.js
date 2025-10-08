@@ -1,4 +1,5 @@
 import styles from './popup.module.css'
+import Image from 'next/image'
 
 export default function Popup({ isOpened, onClose, project }) {
 
