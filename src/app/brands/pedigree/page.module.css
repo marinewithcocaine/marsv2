@@ -1,6 +1,204 @@
 .main {
+    position: relative;
     width: 1080px;
     height: 1920px;
-    background-color: #fff;
+    background-color: #F8B402;
     margin: auto;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+.top {
+    font-family: 'Pedigree';
+    font-weight: normal;
+    z-index: 10;
+    position: relative;
+    padding-top: 200px;
+    display: flex;
+    align-items: center;
+    column-gap: 50px;
+}
+
+.logo {
+    position: absolute;
+    top: -100px;
+    left: 100px;
+    z-index: 0;
+    width: 320px;
+    height: auto;
+}
+
+.title {
+    font-family: 'Pedigree';
+    width: 100%;
+    font-size: 60px;
+    line-height: 70px;
+    text-align: center;
+    color: #fff;
+}
+
+.dog {
+    position: absolute;
+    bottom: -70px;
+    right: 0;
+    z-index: 10;
+    width: 600px;
+    height: auto;
+    animation: dog 4s linear infinite;
+}
+
+@keyframes dog {
+    0% {
+        rotate: 0;
+    }
+
+    50% {
+        rotate: -10deg;
+    }
+
+    100% {
+        rotate: 0;
+    }
+}
+
+.bg {
+    z-index: 0;
+    position: absolute;
+    bottom: 100px;
+    left: -300px;
+    rotate: 90deg;
+}
+
+.circle {
+    font-family: 'Pedigree';
+    z-index: 100;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    fill: #fff;
+    width: 400px;
+    font-size: 30px;
+    overflow: visible;
+    stroke: none;
+    rotate: 30deg;
+}
+
+.circle path {
+    fill: none;
+}
+
+.point {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.point_top {
+    top: 550px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.point_left {
+    top: 700px;
+    left: 100px;
+}
+
+.point_right {
+    top: 700px;
+    right: 100px;
+}
+
+.duga {
+    font-family: 'Pedigree';
+    overflow: visible;
+    font-size: 28px;
+    width: 200px;
+    rotate: 2deg;
+    fill: #fff;
+}
+
+.duga__top {
+    font-weight: bold;
+}
+
+.duga path {
+    fill: none;
+}
+
+.duga__top_left {
+    rotate: 9deg;
+}
+
+.duga__top_right {
+    rotate: 3deg;
+}
+
+.duga__bot {
+    font-weight: normal;
+    rotate: 209deg;
+    transform: translateX(30px);
+}
+
+.duga__bot_left {
+    rotate: 189deg;
+    transform: translateX(20px);
+}
+
+.duga__bot_right {
+    rotate: 209deg;
+    transform: translateX(32px);
+}
+
+.subtitle {
+    font-family: 'Pedigree';
+    position: absolute;
+    top: 1000px;
+    left: 50%;
+    transform: translateX(-50%);
+    color: #fff;
+    width: 1080px;
+    text-align: center;
+    font-size: 60px;
+}
+
+.subtitle span {
+    font-size: 36px;
+    font-weight: normal;
+}
+
+.list {
+    font-family: 'Pedigree';
+    position: absolute;
+    left: 100px;
+    bottom: 200px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 50px;
+}
+
+.list__item {
+    display: flex;
+    column-gap: 30px;
+    align-items: center;
+    color: #fff;
+}
+
+.list__item p {
+    font-weight: bold;
+    font-size: 32px;
+}
+
+.list__item span {
+    font-weight: normal;
+    display: block;
+    font-size: 18px;
+    width: 300px;
+}
+
+.paw {
+    width: 80px;
+    height: auto;
+    rotate: 15deg;
 }

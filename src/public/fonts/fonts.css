@@ -46,3 +46,24 @@
     font-weight: lighter;
     font-style: normal;
 }
+
+@font-face {
+    font-family: 'Pedigree';
+    src: url('pedigree/PEDIGREEUnleashed\ 2.ttf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Pedigree';
+    src: url('pedigree/PEDIGREEUnleashedBlk\ 2.ttf');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Pedigree';
+    src: url('pedigree/PEDIGREEUnleashedLt\ 2.ttf');
+    font-weight: lighter;
+    font-style: normal;
+}
