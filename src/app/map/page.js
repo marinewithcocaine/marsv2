@@ -49,7 +49,7 @@ export default function Map() {
 
                 </h2>
                 <div className={styles.swiper_container}>
-                    <Slider className={styles.slider} images={images} pt="160px" paw={false} />
+                    <Slider className={styles.slider} images={images} />
                     <RegionList regions={regions} handleClick={handleListClick} active={activeMap} />
                 </div>
             </section>

@@ -2,7 +2,7 @@ import styles from './popup.module.css'
 
 export default function Popup({ isOpened, onClose, project }) {
 
-    
+    console.log(project.image);
 
     return (
         <div className={isOpened ? `${styles.popup_opened} ${styles.popup}` : `${styles.popup}`}>
@@ -14,7 +14,13 @@ export default function Popup({ isOpened, onClose, project }) {
                         </g>
                     </svg>
                 </div>
-
+                {   
+                    project.image? () => {
+                        return (
+                            <Image src={project.image} alt="" />
+                        )
+                    } : null
+                }
                 <h2 className={styles.title}>
                     {project.title}
                 </h2>

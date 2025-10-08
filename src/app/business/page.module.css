@@ -23,3 +23,10 @@
     row-gap: 57px;
     
 }
+.title {
+    font-weight: bold;
+    color: #0000A0;
+    font-size: 36px;
+    line-height: 43px;
+    letter-spacing: -1px;;
+}

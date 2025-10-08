@@ -11,7 +11,7 @@ import { useState } from 'react';
 export default function Projects() {
 
     const [isPopupOpened, setPopupOpened] = useState(false);
-    const [project, setProject] = useState({title: '', text: []});
+    const [project, setProject] = useState({title: '', text: [], image: true});
 
     function openPopup (project) {
         setProject(project);
