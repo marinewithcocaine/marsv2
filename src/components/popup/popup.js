@@ -18,7 +18,22 @@ export default function Popup({ isOpened, onClose, project }) {
                 <h2 className={styles.title}>
                     {project.title}
                 </h2>
-                <Image className={styles.logo} src={project.image} alt="" />
+                {
+                    project.images !=null &&
+                    <div className={styles.images}>
+                        {
+                            project.images.map((image, key) => {
+                                return(
+                                    <Image className={styles.preview} src={image} />
+                                )
+                            })
+                        }
+                    </div>
+                }
+                {
+                    project.images == null &&
+                    <Image className={styles.logo} src={project.image} alt="" />    
+                }
                 {
                     project.text.map((elem, i) => {
                         return (
