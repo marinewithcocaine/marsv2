@@ -31,22 +31,17 @@
     width: 432px;
     top: 14px;
     left: 85px;
+    animation: link1 2s linear infinite;
 }
 
-.link_container1 .svg1 {
-    transition: all .3s linear;
-}
+@keyframes link1 {
+    0% {
+        transform: rotate(0);
+    }
 
-.link_container1 g {
-    transition: all .3s linear;
-}
-
-.link_container1:hover .svg1 {
-    transform: rotate(-7deg) scale(1.04);
-}
-
-.link_container1:hover g {
-    transform: translateX(5px);
+    50% {
+        transform: rotate(-15deg);
+    }
 }
 
 .link2 {
@@ -55,14 +50,17 @@
     width: 364px;
     top: 150px;
     left: 666px;
+    animation: link2 5s linear infinite;
 }
 
-.link_container2 .svg2 {
-    transition: all .3s linear;
-}
+@keyframes link2 {
+    0% {
+        transform: scale(1);
+    }
 
-.link_container2:hover .svg2 {
-    transform: scale(1.04);
+    50% {
+        transform: scale(1.1);
+    }
 }
 
 .link3 {
@@ -71,15 +69,24 @@
     width: 468px;
     top: 311px;
     left: 213px;
+    animation: link3 5s linear infinite;
 }
 
-.link_container3 .svg3 {
-    transition: all .3s linear;
+@keyframes link3 {
+    0% {
+        transform: rotate(0);
+    }
+
+    25% {
+        transform: rotate(5deg);
+    }
+
+    75% {
+        transform: rotate(-5deg);
+    }
 }
 
-.link_container3:hover .svg3 {
-    transform: rotate(5deg);
-}
+
 
 .svg1 g,
 .svg2 g,
@@ -90,6 +97,7 @@
 
 .svg1 {
     fill: #b7198f;
+    animation: svg1 1s linear infinite;
 }
 
 .svg2 {
@@ -185,12 +193,34 @@
     transition: all .3s linear;
 }
 
-.business_container:hover {
-    transform: scale(1.05) translateX(-10px);
+.business_container {
+    animation: business 3s linear infinite;
 }
 
-.vigul_container:hover {
-    transform: scale(1.05) translateX(10px);
+@keyframes business {
+    50% {
+        transform: scale(1.05) translateX(-10px);
+    }
+}
+
+.vigul_container {
+    animation: vigul 3s linear infinite;
+}
+
+@keyframes vigul {
+    0% {
+        transform: scale(1.05) translateX(10px);
+    }
+
+    50% {
+        transform: scale(1) translateX(0px);
+
+    }
+
+    100% {
+        transform: scale(1.05) translateX(10px);
+
+    }
 }
 
 .business_container g,
@@ -341,4 +371,3 @@
     opacity: 1;
     animation: fade6 linear 1.6s;
 }
-

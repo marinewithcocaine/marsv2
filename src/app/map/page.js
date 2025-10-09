@@ -14,11 +14,11 @@ export default function Map() {
 
     const [activeMap, setActiveMap] = useState();
 
-    const images = useMemo(() => {
+    const address = useMemo(() => {
         if (!activeMap) {
-            return vigulImages;
+            return null;
         }
-        return vigulImages.filter((image) => image.region == activeMap);
+        return regions.filter((image) => image.region == activeMap);
     }, [activeMap])
 
     const handleMapClick = (data) => {
@@ -49,7 +49,7 @@ export default function Map() {
 
                 </h2>
                 <div className={styles.swiper_container}>
-                    <Slider className={styles.slider} images={images} />
+                    {/* <Slider className={styles.slider} images={images} /> */}
                     <RegionList regions={regions} handleClick={handleListClick} active={activeMap} />
                 </div>
             </section>

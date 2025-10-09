@@ -15,18 +15,10 @@ export default function Popup({ isOpened, onClose, project }) {
                         </g>
                     </svg>
                 </div>
-                {   
-                    project.image? () => {
-                        return (
-                            <Image src={project.image} alt="" />
-                        )
-                    } : null
-                }
                 <h2 className={styles.title}>
                     {project.title}
                 </h2>
-
-
+                <Image className={styles.logo} src={project.image} alt="" />
                 {
                     project.text.map((elem, i) => {
                         return (
@@ -35,6 +27,13 @@ export default function Popup({ isOpened, onClose, project }) {
                             </p>
                         )
                     })
+                }
+                {
+                    project.qr != null &&
+                    <div className={styles.qr}>
+                    <Image className={styles.qr__image} src={project.qr} />
+                    <p className={styles.qr__text}>{project.qrtext}</p>
+                    </div>
                 }
             </div>
         </div>

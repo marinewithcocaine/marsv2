@@ -30,17 +30,21 @@ export const brands = [
 
 export const subbrands = [
     {
-        image: kitekat
+        image: chappi
     },
     {
         image: cesar
-    }, {
-        image: chappi
-    }, {
-        image: crave
-    }, {
+    },
+    {
+        image: kitekat
+    },
+    {
         image: dreamies
-    }, {
+    },
+    {
         image: table
     },
+    {
+        image: crave
+    }
 ]
