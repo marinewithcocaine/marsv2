@@ -4,6 +4,7 @@ import fish from '../../../public/images/sheba/fish.webp'
 import cat from '../../../public/images/sheba/cat.png'
 import stand from '../../../public/images/sheba/stand.png'
 import qr from '../../../public/images/sheba/qr.svg'
+import logo from '../../../public/images/sheba/logo.png'
 import Frame from '@/components/frame/frame'
 
 import Image from 'next/image'
@@ -30,6 +31,7 @@ export default function Sheba() {
                 </div>
                 <ul className={styles.list}>
                     <li className={styles.list__item}>
+                        <Image className={styles.logo} src={logo} alt='sheba logo' />
                         <Image className={styles.image} src={qr} alt='sheba' />
                         <p className={styles.list__text}>
                             Создаем образовательный контент
