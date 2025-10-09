@@ -1,13 +1,16 @@
+'use client'
+
 import styles from './page.module.css'
 import Image from 'next/image';
 import logo from '../../../public/images/perfect/logo.svg';
 import qr from '../../../public/images/perfect/qr.svg';
 import dog from '../../../public/images/perfect/dog.png';
 import cat from '../../../public/images/perfect/cat.png';
-
 import Header from '../../../components/header/header'
+import Counter from '@/components/counter/counter';
 
 export default function Perfect() {
+
     return (
         <main className={styles.main}>
             <Header link={'brands'} />
@@ -22,13 +25,13 @@ export default function Perfect() {
                 </h2>
                 <ul className={styles.list}>
                     <li className={styles.list__item}>
-                        <p>500</p>
+                        <div><Counter val={500} time={1}/></div>
                         <span>клиник</span>
                     </li>
                     <li className={styles.list__item}>
-                        <p>15000<b>+</b></p>
+                        <div><Counter val={15000} time={0.1}/><b>+</b></div>
                         <span>контактов</span>
-                    </li>
+                    </li>s
                 </ul>
                 <div className={styles.programm}>
                     <h3 className={styles.programm__title}>
