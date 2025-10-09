@@ -24,7 +24,7 @@ export default function Popup({ isOpened, onClose, project }) {
                         {
                             project.images.map((image, i) => {
                                 return(
-                                    <Image className={styles.preview} src={image} key={i}/>
+                                    <Image className={styles.preview} src={image} alt='dog' key={i}/>
                                 )
                             })
                         }
