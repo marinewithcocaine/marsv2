@@ -1,27 +1,27 @@
 @font-face {
     font-family: 'Montserrat'; 
-    src: url('Montserrat-Bold.ttf'); 
+    src: url('montserrat/Montserrat-Bold.ttf'); 
     font-weight: bold;
     font-style: normal;
 }
 
 @font-face {
     font-family: 'Montserrat'; 
-    src: url('Montserrat-ExtraBold.ttf'); 
+    src: url('montserrat/Montserrat-ExtraBold.ttf'); 
     font-weight: 900;
     font-style: normal;
 }
 
 @font-face {
     font-family: 'Montserrat'; 
-    src: url('Montserrat-Regular.ttf'); 
+    src: url('montserrat/Montserrat-Regular.ttf'); 
     font-weight: normal;
     font-style: normal;
 }
 
 @font-face {
     font-family: 'Montserrat'; 
-    src: url('Montserrat-SemiBold.ttf'); 
+    src: url('montserrat/Montserrat-SemiBold.ttf'); 
     font-weight: 600;
     font-style: normal;
 }
@@ -100,5 +100,26 @@
     font-family: 'Perfect';
     src: url('perfect/Avenir\ Next\ W1G\ Medium.ttf');
     font-weight: medium;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Sheba';
+    src: url('sheba/Circe-Contrast_Regular.woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Sheba Gothic';
+    src: url('sheba/centurygothic.ttf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Sheba Gothic';
+    src: url('sheba/centurygothic_bold.ttf');
+    font-weight: bold;
     font-style: normal;
 }

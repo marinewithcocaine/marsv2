@@ -1,5 +1,5 @@
 import whiskas from '../images/brands/whiskas.png';
-import sheba from '../images/brands/sheba.webp';
+import sheba from '../images/brands/sheba.png';
 import perfectfit from '../images/brands/perfectfit.png';
 import pedigree from '../images/brands/pedigree.png';
 import cesar from '../images/brands/cesar.webp';

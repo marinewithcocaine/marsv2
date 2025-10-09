@@ -29,9 +29,9 @@ export default function Perfect() {
                         <span>клиник</span>
                     </li>
                     <li className={styles.list__item}>
-                        <div><Counter val={15000} time={0.1}/><b>+</b></div>
+                        <div><Counter val={15000} time={0.3}/><b>+</b></div>
                         <span>контактов</span>
-                    </li>s
+                    </li>
                 </ul>
                 <div className={styles.programm}>
                     <h3 className={styles.programm__title}>

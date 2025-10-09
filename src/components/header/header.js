@@ -1,13 +1,16 @@
 import Link from "next/link";
 import styles from './header.module.css';
 
-export default function Header({ link = '' }) {
+export default function Header({ link = '', bg = true }) {
     return (
         <header className={styles.header}>
             <nav className={styles.nav}>
-                <svg className={styles.bg} id="_Слой_1" data-name="Слой 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 560.29 392.44">
-                    <path d="m259.4,2.7L372.69.05c77.34-1.81,184.52,40.99,187.6,154.16,0,0-22.93,66.52-54.7,154.29-61.28,169.33-152.65,27.04-371.11,44.86C-77.53,370.65-41.03,9.72,259.4,2.7" />
-                </svg>
+                {
+                    bg == true &&
+                    <svg className={styles.bg} id="_Слой_1" data-name="Слой 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 560.29 392.44">
+                        <path d="m259.4,2.7L372.69.05c77.34-1.81,184.52,40.99,187.6,154.16,0,0-22.93,66.52-54.7,154.29-61.28,169.33-152.65,27.04-371.11,44.86C-77.53,370.65-41.03,9.72,259.4,2.7" />
+                    </svg>
+                }
                 <Link className={styles.link} href={`/${link}`}>
                     <div className={`${styles.link__container}`}>
                         <svg className={styles.link__arrow} id="_Слой_1" data-name="Слой 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 30.35 30.67">

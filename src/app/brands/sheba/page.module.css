@@ -1,4 +1,5 @@
 .main {
+    position: relative;
     margin: auto;
     width: 1080px;
     height: 1920px;
@@ -6,4 +7,185 @@
     flex-direction: column;
     overflow: hidden;
     background-color: #fff;
+    background-image: url('../../../public/images//sheba/bg.png');
+    background-size: cover;
+    background-position: center;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+}
+
+.top {
+    padding-top: 100px;
+    z-index: 1;
+    position: relative;
+}
+
+.title__container {
+    padding: 50px;
+    padding-left: 100px;
+    position: relative;
+    display: flex;
+    column-gap: 30px;
+}
+
+.fish {
+    z-index: 10;
+    position: absolute;
+    left: 30px;
+    width: 200px;
+    height: auto;
+    animation: fish 5s linear infinite;
+}
+
+@keyframes fish {
+    0% {
+        rotate: 0deg;
+    }
+
+    100% {
+        rotate: 360deg;
+    }
+}
+
+.cat {
+    z-index: 0;
+    position: absolute;
+    top: 30px;
+    width: 450px;
+    height: auto;
+    right: -225px;
+    animation: cat 1.5s linear;
+}
+
+@keyframes cat {
+    0% {
+        opacity: 0;
+        transform: translateY(200px);
+    }
+}
+
+.letter {
+    font-family: 'Sheba';
+    font-size: 150px;
+    font-weight: normal;
+    color: #d9b176;
+    animation: title 1.5s linear;
+}
+
+.title {
+    display: flex;
+    flex-direction: column;
+    row-gap: 0px;
+    font-family: 'Sheba';
+    font-weight: normal;
+    text-transform: uppercase;
+    color: #d9b176;
+    font-size: 40px;
+    transform: translateY(10px);
+    animation: title 1.5s linear;
+}
+
+@keyframes title {
+    0% {
+        opacity: 0;
+        transform: translateY(100px);
+    }
+}
+
+.title b {
+    font-weight: normal;
+    font-size: 100px;
+    line-height: 100px;
+}
+
+.title b:first-of-type {
+    transform: translateX(-6px);
+}
+
+.title b:last-of-type {
+    margin-left: 40px;
+}
+
+.subtitle {
+    position: absolute;
+    top: 20px;
+    left: 140px;
+    font-family: 'Sheba';
+    text-transform: uppercase;
+    color: #d9b176;
+    font-size: 34px;
+}
+
+.description {
+    padding-top: 150px;
+    z-index: 10;
+    font-family: 'Sheba Gothic';
+    font-size: 32px;
+    color: #d9b176;
+    width: 900px;
+    margin: auto;
+    text-align: center;
+}
+
+.list {
+    padding: 100px 20px;
+    display: grid;
+    grid-template-columns: repeat(3, 330px);
+    justify-content: space-between;
+}
+
+.list__item {
+    width: 100%;
+    height: 450px;
+    display: grid;
+    grid-template-rows: 60% 40%;
+    row-gap: 10px;
+    justify-items: center;
+    border: 2px solid #d9b176;
+    border-radius: 20px;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.image {
+    height: 100%;
+    width: auto;
+}
+
+.list__text {
+    font-family: 'Sheba Gothic';
+    color: #d9b176;
+    text-align: center;
+    font-size: 32px;
+}
+
+.list__text_bold {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-size: 32px;
+    color: #53AD9B;
+}
+
+.list__text_bold b{
+    font-size: 60px;
+    font-weight: bold;
+}
+
+.link {
+    margin: auto;
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 700px;
+    height: 70px;
+    border-radius: 35px;
+    color: #000;
+    font-family: 'Sheba Gothic';
+    font-size: 32px;
+    background: linear-gradient(to right, #b77733, #ead3c0);
 }
