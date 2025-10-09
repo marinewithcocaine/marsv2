@@ -1,0 +1,140 @@
+.main {
+    position: relative;
+    width: 1080px;
+    height: 1920px;
+    margin: auto;
+    background-color: #fff;
+    overflow: hidden;
+    color: #00AA5B;
+}
+
+.logo {
+    position: absolute;
+    top: 0px;
+    left: 100px;
+    width: 400px;
+    height: 200px;
+}
+
+.content {
+    font-family: 'Perfect';
+    width: 100%;
+    padding: 100px 0;
+}
+
+.title {
+    padding-left: 95px;
+    text-transform: uppercase;
+    color: #00AA5B;
+    font-size: 78px;
+    font-weight: normal;
+}
+
+.subtitle {
+    width: 1000px;
+    padding-top: 30px;
+    padding-left: 95px;
+    font-size: 64px;
+    line-height: 72px;
+    font-weight: normal;
+}
+
+.list {
+    font-weight: bolder;
+    padding: 120px 90px;
+    display: flex;
+    list-style-type: none;
+    justify-content: space-between;
+}
+
+.list__item {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.list__item p {
+    font-weight: 900;
+    font-size: 120px;
+}
+
+.list__item b {
+    font-size: 80px;
+    font-weight: 100;
+}
+
+.list__item span {
+    text-align: center;
+    font-size: 28px;
+    font-weight: normal;
+    text-transform: uppercase;
+}
+
+.programm {
+    padding-left: 95px;
+    font-family: 'Perfect';
+    display: flex;
+    flex-direction: column;
+    row-gap: 30px;
+}
+
+.programm__title {
+    text-transform: uppercase;
+    font-size: 42px;
+    font-weight: normal;
+}
+
+.programm__item {
+    width: 650px;
+    padding: 30px;
+    border: 2px solid #00AA5B;
+    font-size: 42px;
+    line-height: 44px;
+    font-weight: normal;
+    transform: translateX(-30px);
+}
+
+.qr {
+    display: flex;
+    flex-direction: row;
+    column-gap: 30px;
+    align-items: center;
+    width: 100%;
+    height: 300px;
+    margin-top: 50px;
+    background-color: #00AA5B;
+}
+
+.qr__image {
+    padding-left: 50px;
+    width: 320px;
+    height: 320px;
+}
+
+.qr__text {
+    z-index: 10;
+    color: #fff;
+    font-size: 42px;
+    line-height: 50px;
+    font-weight: lighter;
+    width: 400px;
+}
+
+.dog {
+    z-index: 1;
+    position: absolute;
+    bottom: 50px;
+    right: -100px;
+    width: 500px;
+    height: auto;
+    transform: scaleX(-1);
+}
+
+.cat {
+    z-index: 1;
+    position: absolute;
+    bottom: 50px;
+    right: 220px;
+    width: 300px;
+    height: auto;
+}

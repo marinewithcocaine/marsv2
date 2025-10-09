@@ -67,3 +67,38 @@
     font-weight: lighter;
     font-style: normal;
 }
+
+@font-face {
+    font-family: 'Perfect';
+    src: url('perfect/Avenir\ Next\ W1G\ Regular.ttf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Perfect';
+    src: url('perfect/Avenir\ Next\ W1G\ Bold.ttf');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Perfect';
+    src: url('perfect/Avenir\ Next\ W1G\ Heavy.ttf');
+    font-weight: 900;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Perfect';
+    src: url('perfect/Avenir\ Next\ W1G\ UltraLight.ttf');
+    font-weight: 100;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Perfect';
+    src: url('perfect/Avenir\ Next\ W1G\ Medium.ttf');
+    font-weight: medium;
+    font-style: normal;
+}

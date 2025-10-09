@@ -2,7 +2,7 @@ import styles from './page.module.css'
 import Image from 'next/image';
 import logo from '../../../public/images/pedigree/pedigree.png';
 import dog from '../../../public/images/pedigree/dog.png';
-import background from '../../../public/images/pedigree/background.png';
+import bg from '../../../public/images/pedigree/bg.svg';
 import paw from '../../../public/images/pedigree/paw.png';
 
 import Header from '../../../components/header/header';
@@ -17,79 +17,96 @@ export default function Pedigree() {
                     Тем, кто делает<br></br> нас&nbsp;лучше™
                 </h1>
             </div>
-            <Image className={styles.bg} src={background} alt="bg" />
+            <Image className={styles.bg} src={bg} alt="bg" />
             <Image className={styles.dog} src={dog} alt='dog' />
 
-            <div className={`${styles.point} ${styles.point_top}`}>
-                <div className={styles.duga__top}>
-                    <svg className={styles.duga} id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 250.25 125.1">
-                        <path id='duga' d="m.13,125.09c-.08-10.84,1.02-46.71,27.21-79.23C62.78,1.88,114.99.24,122.18.14c49.18-.71,91.63,28.26,112.44,65.72,13.06,23.5,15.29,46.19,15.51,59.24" />
-                        <text>
-                            <textPath href="#duga">
-                                Бренд №1 по узнаваемости
-                            </textPath>
-                        </text>
+            <div className={styles.point_list}>
+
+                <div className={`${styles.point} ${styles.point_top}`}>
+                    <div className={styles.duga__top}>
+                        <svg className={styles.duga} id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 250.25 125.1">
+                            <path id='duga' d="m.13,125.09c-.08-10.84,1.02-46.71,27.21-79.23C62.78,1.88,114.99.24,122.18.14c49.18-.71,91.63,28.26,112.44,65.72,13.06,23.5,15.29,46.19,15.51,59.24" />
+                            <text>
+                                <textPath href="#duga">
+                                    Бренд №1 по узнаваемости
+                                </textPath>
+                            </text>
+                        </svg>
+                    </div>
+                    <svg className={styles.icon} id="_Слой_1" data-name="Слой 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 144 144">
+                        <path class="cls-1" d="m72,0C32.3,0,0,32.2,0,72s32.2,72,72,72,72-32.2,72-72C143.9,32.2,111.7,0,72,0Zm2.7,32.6c.2-6.2,5.5-11.1,11.7-10.8s11.1,5.5,10.8,11.7c0,1.1-.2,2.1-.5,3-.4,1.2-1,2.3-1.7,3.3-1.6,2.4-4.5,6-7.7,8.6-1.6,1.3-2.7,2-3.6,2h-.1c-.2,0-.3,0-.5-.1v-.1c-.8-.3-1.7-1.3-2.8-3-2.1-3.1-3.8-6.9-4.6-9.6-.8-2.1-1-3.2-1-5Zm-18.2-10.7c6.2,0,11.3,5,11.3,11.3,0,1.8-.3,2.8-1,5-1,2.7-2.8,6.4-5,9.5-1.2,1.7-2.1,2.6-3,2.9v.1h-.6c-.9-.1-2-.8-3.5-2.1-3.2-2.7-5.9-6.4-7.4-8.9-.7-1-1.2-2.1-1.6-3.3-.3-1-.4-2-.4-3.1-.1-6.3,4.9-11.4,11.2-11.4ZM22.9,57.6c-.7-.9-1.3-1.9-1.8-3-.3-.9-.6-1.8-.7-2.8-.6-5.8,3.7-11,9.6-11.6s11,3.7,11.6,9.6c.2,1.7,0,2.7-.5,4.8-.7,2.6-2,6.2-3.9,9.3-1,1.7-1.7,2.6-2.5,3v.1c-.1.1-.3.1-.5.1h-.1c-.9,0-1.9-.6-3.5-1.7-3.2-2.4-6.1-5.6-7.7-7.8Zm88.7,47.2c-.4,2.5-1.4,4.8-2.8,6.9-1.3,2.1-2.9,3.9-4.9,5.4-1.1.8-2.2,1.8-3.5,2.4-2.2,1-4.5,1.9-6.9,2.4-2,.4-4.1.3-6.2,0-3.1-.4-6.1-1.1-9.1-1.6-2-.3-4-.7-6-.7h-3c-2,.1-4,.4-6,.7-3,.5-6.1,1.2-9.1,1.6-2,.2-4.2.3-6.2,0-2.4-.5-4.7-1.4-6.9-2.4-1.3-.5-2.3-1.5-3.5-2.4-2-1.4-3.6-3.3-4.9-5.4-1.3-2.1-2.3-4.4-2.8-6.9-.3-1.7-.7-3.3-.6-5,0-1.7.4-3.4.7-5.1.4-2.3,1.4-4.4,2.6-6.4.7-1.1,1.5-2.1,2.4-3.1,1.5-1.8,3.2-3.4,4.6-5.2.6-.7.9-1.6,1.3-2.5.4-.9.8-1.7,1.3-2.6.7-1.3,1.3-2.5,2-3.7,1.7-2.8,3.5-5.5,5.8-7.9,1.4-1.4,2.9-2.8,4.6-3.7,2.6-1.4,5.3-2.4,8.3-2.9,2.6-.4,5.3-.7,7.9-.7s5.3.3,7.9.7c3,.5,5.7,1.5,8.3,2.9,1.7,1,3.2,2.3,4.6,3.7,2.3,2.4,4.2,5.1,5.8,7.9.7,1.2,1.4,2.5,2,3.7.5.9.9,1.7,1.3,2.6.4.8.7,1.8,1.3,2.5,1.5,1.8,3.1,3.5,4.6,5.2.9,1,1.7,2,2.4,3.1,1.2,2,2.2,4.1,2.6,6.4.3,1.7.7,3.4.7,5.1.1,1.7-.3,3.4-.6,5Zm11-47c-.4,1-1,1.9-1.6,2.7-.8,1-1.7,1.8-2.8,2.5-2.4,1.8-6.4,4.2-10.5,5.5-2,.7-3.3.9-4.2.6h-.1c-.2-.1-.3-.1-.5-.2v-.1c-.7-.6-1.2-1.8-1.7-3.9-.9-3.7-1.2-7.9-1-10.9.2-2.3.3-3.4,1-5.1,2.4-5.9,9.2-8.6,15-6.2,6.1,2.5,8.9,9.3,6.4,15.1Z" />
                     </svg>
+
+                    <div className={styles.duga__bot}>
+                        <svg className={styles.duga} id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 250.25 125.1">
+                            <path id='duga' d="m.13,125.09c-.08-10.84,1.02-46.71,27.21-79.23C62.78,1.88,114.99.24,122.18.14c49.18-.71,91.63,28.26,112.44,65.72,13.06,23.5,15.29,46.19,15.51,59.24" />
+                            <text>
+                                <textPath href="#duga">
+                                    среди покупателей
+                                </textPath>
+                            </text>
+                        </svg>
+                    </div>
                 </div>
-                <div className={styles.duga__bot}>
-                    <svg className={styles.duga} id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 250.25 125.1">
-                        <path id='duga' d="m.13,125.09c-.08-10.84,1.02-46.71,27.21-79.23C62.78,1.88,114.99.24,122.18.14c49.18-.71,91.63,28.26,112.44,65.72,13.06,23.5,15.29,46.19,15.51,59.24" />
-                        <text>
-                            <textPath href="#duga">
-                                среди покупателей
-                            </textPath>
-                        </text>
+
+                <div className={`${styles.point} ${styles.point_left}`}>
+                    <div className={`${styles.duga__top} ${styles.duga__top_left}`}>
+                        <svg className={styles.duga} id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 250.25 125.1">
+                            <path id='duga' d="m.13,125.09c-.08-10.84,1.02-46.71,27.21-79.23C62.78,1.88,114.99.24,122.18.14c49.18-.71,91.63,28.26,112.44,65.72,13.06,23.5,15.29,46.19,15.51,59.24" />
+                            <text>
+                                <textPath href="#duga">
+                                    Бренд №1 с наибольшим
+                                </textPath>
+                            </text>
+                        </svg>
+                    </div>
+                    <svg className={`${styles.icon} ${styles.icon_left}`} id="_Слой_1" data-name="Слой 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 144 144">
+                        <path class="cls-1" d="m72,0C32.3,0,0,32.2,0,72s32.2,72,72,72,72-32.2,72-72S111.7,0,72,0Zm-25.5,59.2l-.2-.1c-.1,0-5.6-3.1-11.3-11.4-5-7.3-5.3-11.8-5.3-11.9v-.1h12.2v3.6h-6.7c.8,1.8,1.9,3.9,3.6,6.4,2.8,4.1,5.6,6.9,7.7,8.7v4.8Zm48.6,56.2c0,1.3-1.1,2.4-2.4,2.4h-41.9c-1.3,0-2.4-1.1-2.4-2.4v-1.7c0-1.3,1.1-2.4,2.4-2.4h2.8v-20.2c0-3.1,2.6-5.7,5.7-5.7h10v-8.1c-1.4-.9-2.4-2.4-3.2-4.2-22.5-6.8-20-47-20-47h52s2.4,40.2-20,47c-.8,1.8-1.9,3.3-3.2,4.2v8.1h10c3.1,0,5.7,2.6,5.7,5.7v20.2h2.2c1.3,0,2.4,1.1,2.4,2.4v1.7h-.1Zm19-79.6s-.3,4.6-5.3,11.9c-5.7,8.3-11.2,11.4-11.3,11.4l-.2.1v-4.8c2.1-1.8,4.9-4.6,7.7-8.7,1.7-2.5,2.8-4.6,3.6-6.4h-6.7v-3.6h12.2v.1Z" />
+                        <path class="cls-1" d="m81.8,97.9c0-1.4-1.1-2.5-2.5-2.5h-.4c-1.4,0-2.5,1.1-2.5,2.4h-8.8c-.1-1.3-1.2-2.4-2.5-2.4h-.4c-1.4,0-2.5,1.1-2.5,2.5v.7c0,.6.2,1.1.5,1.6-.3.4-.5,1-.5,1.6v.7c0,1.4,1.1,2.5,2.5,2.5h.4c1.4,0,2.5-1.1,2.5-2.4h8.8c.1,1.3,1.2,2.4,2.5,2.4h.4c1.4,0,2.5-1.1,2.5-2.5v-.7c0-.6-.2-1.1-.5-1.6.3-.4.5-1,.5-1.6v-.7Z" />
+                        <path class="cls-1" d="m82.3,42.9c.2-.2.3-.6.2-.9-.1-.3-.4-.5-.7-.5h-6.1c-.2,0-.4-.1-.5-.4l-2.5-6.4c-.1-.3-.4-.5-.7-.5h0c-.3,0-.6.2-.7.5l-3,6.4c-.1.2-.3.3-.5.3h-5.5c-.3,0-.6.2-.7.5s-.1.6.2.9l4.3,4.2c.1.1.2.3.2.5l-1.1,6.1c-.1.3.1.6.3.8.1.1.3.2.5.2.1,0,.3,0,.4-.1l5.5-2.9c.2-.1.4-.1.5,0l5.5,2.9c.3.1.6.1.8-.1.2-.2.4-.5.3-.8l-1.1-6.1c0-.2,0-.4.2-.5l4.2-4.1Z" />
                     </svg>
+
+                    <div className={`${styles.duga__bot} ${styles.duga__bot_left}`}>
+                        <svg className={styles.duga} id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 250.25 125.1">
+                            <path id='duga' d="m.13,125.09c-.08-10.84,1.02-46.71,27.21-79.23C62.78,1.88,114.99.24,122.18.14c49.18-.71,91.63,28.26,112.44,65.72,13.06,23.5,15.29,46.19,15.51,59.24" />
+                            <text>
+                                <textPath href="#duga">
+                                    количеством покупателей
+                                </textPath>
+                            </text>
+                        </svg>
+                    </div>
+                </div>
+
+                <div className={`${styles.point} ${styles.point_right}`}>
+                    <div className={`${styles.duga__top} ${styles.duga__top_right}`}>
+                        <svg className={styles.duga} id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 250.25 125.1">
+                            <path id='duga' d="m.13,125.09c-.08-10.84,1.02-46.71,27.21-79.23C62.78,1.88,114.99.24,122.18.14c49.18-.71,91.63,28.26,112.44,65.72,13.06,23.5,15.29,46.19,15.51,59.24" />
+                            <text>
+                                <textPath href="#duga">
+                                    №1 в мейнстрим сегменте
+                                </textPath>
+                            </text>
+                        </svg>
+                    </div>
+                    <svg className={styles.icon} id="_Слой_1" data-name="Слой 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 144 144">
+                        <path class="cls-1" d="m72,0C32.3,0,0,32.2,0,72s32.2,72,72,72,72-32.2,72-72S111.7,0,72,0Zm28.7,97.3c-3.7.5-16.8,1.4-29.3,1.4s-24.4-.9-28.1-1.4c-9.6-1.4-36.6-2.1-31.2-19.1l8.4-27.3c.7-2.1,2.6-8.6,28.7-11,18.4-1.7,27.2-1.7,45.6,0,26.1,2.4,28,8.8,28.7,11l8.4,27.3c5.4,17-21.6,17.8-31.2,19.1Z" />
+                        <ellipse class="cls-1" cx="72" cy="51.5" rx="38.9" ry="4.6" />
+                        <path class="cls-1" d="m91.7,72c0-2.8-2.3-5.1-5.1-5.1h-.9c-2.7,0-4.9,2.2-5.1,4.8h-17.3c-.1-2.7-2.3-4.8-5.1-4.8h-.9c-2.8,0-5.1,2.3-5.1,5.1v1.4c0,1.2.4,2.2,1.1,3.1-.7.9-1.1,1.9-1.1,3.1v1.4c0,2.8,2.3,5.1,5.1,5.1h.9c2.7,0,4.9-2.2,5.1-4.8h17.3c.1,2.7,2.3,4.8,5.1,4.8h.9c2.8,0,5.1-2.3,5.1-5.1v-1.4c0-1.2-.4-2.2-1.1-3.1.7-.9,1.1-1.9,1.1-3.1v-1.4Z" />
+                    </svg>
+                    <div className={`${styles.duga__bot} ${styles.duga__bot_right}`}>
+                        <svg className={styles.duga} id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 250.25 125.1">
+                            <path id='duga' d="m.13,125.09c-.08-10.84,1.02-46.71,27.21-79.23C62.78,1.88,114.99.24,122.18.14c49.18-.71,91.63,28.26,112.44,65.72,13.06,23.5,15.29,46.19,15.51,59.24" />
+                            <text>
+                                <textPath href="#duga">
+                                    кормов для щенков
+                                </textPath>
+                            </text>
+                        </svg>
+                    </div>
                 </div>
             </div>
 
-            <div className={`${styles.point} ${styles.point_left}`}>
-                <div className={`${styles.duga__top} ${styles.duga__top_left}`}>
-                    <svg className={styles.duga} id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 250.25 125.1">
-                        <path id='duga' d="m.13,125.09c-.08-10.84,1.02-46.71,27.21-79.23C62.78,1.88,114.99.24,122.18.14c49.18-.71,91.63,28.26,112.44,65.72,13.06,23.5,15.29,46.19,15.51,59.24" />
-                        <text>
-                            <textPath href="#duga">
-                                Бренд №1 с наибольшим
-                            </textPath>
-                        </text>
-                    </svg>
-                </div>
-                
-                <div className={`${styles.duga__bot} ${styles.duga__bot_left}`}>
-                    <svg className={styles.duga} id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 250.25 125.1">
-                        <path id='duga' d="m.13,125.09c-.08-10.84,1.02-46.71,27.21-79.23C62.78,1.88,114.99.24,122.18.14c49.18-.71,91.63,28.26,112.44,65.72,13.06,23.5,15.29,46.19,15.51,59.24" />
-                        <text>
-                            <textPath href="#duga">
-                                количеством покупателей
-                            </textPath>
-                        </text>
-                    </svg>
-                </div>
-            </div>
-
-            <div className={`${styles.point} ${styles.point_right}`}>
-                <div className={`${styles.duga__top} ${styles.duga__top_right}`}>
-                    <svg className={styles.duga} id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 250.25 125.1">
-                        <path id='duga' d="m.13,125.09c-.08-10.84,1.02-46.71,27.21-79.23C62.78,1.88,114.99.24,122.18.14c49.18-.71,91.63,28.26,112.44,65.72,13.06,23.5,15.29,46.19,15.51,59.24" />
-                        <text>
-                            <textPath href="#duga">
-                                №1 в мейнстрим сегменте
-                            </textPath>
-                        </text>
-                    </svg>
-                </div>
-                
-                <div className={`${styles.duga__bot} ${styles.duga__bot_right}`}>
-                    <svg className={styles.duga} id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 250.25 125.1">
-                        <path id='duga' d="m.13,125.09c-.08-10.84,1.02-46.71,27.21-79.23C62.78,1.88,114.99.24,122.18.14c49.18-.71,91.63,28.26,112.44,65.72,13.06,23.5,15.29,46.19,15.51,59.24" />
-                        <text>
-                            <textPath href="#duga">
-                                кормов для щенков
-                            </textPath>
-                        </text>
-                    </svg>
-                </div>
-            </div>
 
             <h2 className={styles.subtitle}>
                 Миссия&nbsp;PEDIGREE®&nbsp;<br></br><span>-&nbsp;любящий&nbsp;дом&nbsp;для&nbsp;каждой&nbsp;собаки</span>

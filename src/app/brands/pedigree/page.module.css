@@ -44,29 +44,25 @@
     z-index: 10;
     width: 600px;
     height: auto;
-    animation: dog 4s linear infinite;
-}
-
-@keyframes dog {
-    0% {
-        rotate: 0;
-    }
-
-    50% {
-        rotate: -10deg;
-    }
-
-    100% {
-        rotate: 0;
-    }
 }
 
 .bg {
     z-index: 0;
     position: absolute;
-    bottom: 100px;
-    left: -300px;
+    bottom: -100px;
+    right: -600px;
     rotate: 90deg;
+    animation: bg 45s linear infinite;
+}
+
+@keyframes bg {
+    0% {
+        rotate: 0;
+    }
+
+    100% {
+        rotate: 360deg;
+    }
 }
 
 .circle {
@@ -92,6 +88,32 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
+}
+
+.icon {
+    width: 160px;
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    fill: #fff;
+    animation: icon 2s linear infinite;
+}
+
+@keyframes icon {
+    0% {
+        rotate: 0;
+    }
+
+    25% {
+        rotate: 10deg;
+    }
+
+    75% {rotate: -10deg;}
+}
+
+.icon_left {
+    top: 20px;
+    left: 10px;
 }
 
 .point_top {
@@ -201,4 +223,19 @@
     width: 80px;
     height: auto;
     rotate: 15deg;
+    animation: paw 2s linear infinite;
+}
+
+@keyframes paw {
+    0% {
+        scale: 1;
+    }
+
+    50% {
+        scale: 1.1;
+    }
+
+    100%{
+        scale: 1;
+    }
 }
