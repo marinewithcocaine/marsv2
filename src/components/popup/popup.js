@@ -22,9 +22,9 @@ export default function Popup({ isOpened, onClose, project }) {
                     project.images !=null &&
                     <div className={styles.images}>
                         {
-                            project.images.map((image, key) => {
+                            project.images.map((image, i) => {
                                 return(
-                                    <Image className={styles.preview} src={image} />
+                                    <Image className={styles.preview} src={image} key={i}/>
                                 )
                             })
                         }
