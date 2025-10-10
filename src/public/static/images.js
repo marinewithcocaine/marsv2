@@ -7,6 +7,8 @@ import pokaz1 from '../images/pokaz/pokaz1.jpg';
 import pokaz2 from '../images/pokaz/pokaz2.jpg';
 import pokaz3 from '../images/pokaz/pokaz3.jpg';
 import pokaz4 from '../images/pokaz/pokaz4.jpg';
+import pokaz5 from '../images/pokaz/pokaz5.jpeg';
+
 import pyat1 from '../images/pyat/pyat1.jpg';
 import pyat2 from '../images/pyat/pyat2.jpg';
 import pyat3 from '../images/pyat/pyat3.jpg';
@@ -94,6 +96,13 @@ export const vkImages = [
 ]
 
 export const cinemaImages = [
+    {
+        src: pokaz5,
+        alt: 'Mars Image',
+        titles: [
+            'Провели первый dog-friendly кинопоказ ко Дню собак',
+        ]
+    },
     {
         src: pokaz1,
         alt: 'Mars Image',
