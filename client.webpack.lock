@@ -1,0 +1,7 @@
+{
+  "https://c02929e3-a4b9-4b2b-8aad-0bb85fe18283.selstorage.ru/123.mp4": { "integrity": "sha512-2RipmKcKdNELHeH/yo1fyz5zF0AcgRlo3Gy1cFrwoPAZonkHxYB2Rb4CxMgOKjj8JhN3DrZCKz0CTqh9pv3bBg==", "contentType": "video/mp4" },
+  "https://pictdesign.ru/wp-content/uploads/123.mp4": { "integrity": "sha512-2RipmKcKdNELHeH/yo1fyz5zF0AcgRlo3Gy1cFrwoPAZonkHxYB2Rb4CxMgOKjj8JhN3DrZCKz0CTqh9pv3bBg==", "contentType": "video/mp4" },
+  "https://qwertytestdomain.ru/_next/static/media/123.mp4": { "integrity": "sha512-2RipmKcKdNELHeH/yo1fyz5zF0AcgRlo3Gy1cFrwoPAZonkHxYB2Rb4CxMgOKjj8JhN3DrZCKz0CTqh9pv3bBg==", "contentType": "video/mp4" },
+  "https://www.dropbox.com/scl/fi/fa3zwvb053vht0vcdeykr/7.mp4": "no-cache",
+  "version": 1
+}
