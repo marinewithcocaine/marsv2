@@ -28,20 +28,27 @@
     padding-bottom: 0;
 }
 
-.slider {
+.swiper {
     width: 100%;
     height: 320px;
 }
 
 .swiper_container {
+    position: relative;
     display: grid;
-    grid-template-columns: 423px 1fr;
+    grid-template-columns: 473px 1fr;
     column-gap: 160px;
 }
 
-.swiper-button-prev,
-.swiper-button-next {
-    --swiper-navigation-top-offset: 160px;
+.image_container {
+    width: 100%;
+    height: 100%;
+}
+
+.image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
 }
 
 .map {
@@ -50,4 +57,20 @@
     cursor: pointer;
     fill: #fff;
     stroke-miterlimit: 10;
+    transform: translateX(100px);
+}
+
+.address__list {
+    position: absolute;
+    top: 330px;
+    color: #0000A0;
+}
+
+.address__title {
+    font-size: 22px;
+}
+
+.list {
+    padding-top: 10px;
+    transform: translateX(15px);
 }

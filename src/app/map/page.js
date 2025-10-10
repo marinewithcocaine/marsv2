@@ -9,6 +9,9 @@ import { vigulImages } from '@/public/static/images';
 import { regions } from '@/public/static/regions';
 import { useState, useMemo } from 'react';
 import Region from '@/components/region/region';
+import { Swiper, SwiperSlide } from 'swiper/react';
+import { Autoplay } from 'swiper/modules';
+import Image from 'next/image';
 
 export default function Map() {
 
@@ -18,7 +21,7 @@ export default function Map() {
         if (!activeMap) {
             return null;
         }
-        return regions.filter((image) => image.region == activeMap);
+        return regions.filter((region) => region.id == activeMap);
     }, [activeMap])
 
     const handleMapClick = (data) => {
@@ -39,7 +42,7 @@ export default function Map() {
     return (
         <main className={styles.main}>
             <Title title={'выгул'} color={'green'} />
-            <Header link={'cities'}  />
+            <Header link={'cities'} />
             <section className={styles.content}>
                 <h2>
                     Мы&nbsp;разработали&nbsp;концепт&nbsp;более&nbsp;100&nbsp;площадок
@@ -49,8 +52,49 @@ export default function Map() {
 
                 </h2>
                 <div className={styles.swiper_container}>
-                    {/* <Slider className={styles.slider} images={images} /> */}
+                    <Swiper
+                        className={styles.swiper}
+                        modules={[Autoplay]}
+                        autoplay={{
+                            delay: 3000,
+                            disableOnInteraction: false
+                        }}
+                        loop={true}
+                        slidesPerView={1}
+                    >
+                        {
+                            vigulImages.map((image, i) => {
+                                return (
+                                    <SwiperSlide key={i}>
+                                        <div className={styles.image_container}>
+                                            <Image className={styles.image} src={image.src} alt={image.alt} />
+                                        </div>
+                                    </SwiperSlide>
+                                )
+                            })
+                        }
+                    </Swiper>
                     <RegionList regions={regions} handleClick={handleListClick} active={activeMap} />
+                    {
+                        activeMap != null &&
+                        <div className={styles.address__list}>
+                            <p className={styles.address__title}>{address[0].title}</p>
+                            <ul className={styles.list}>
+                                {
+                                    address[0].done.map((item, i) => {
+                                        return (
+                                            <li key={i}>
+                                                {item}
+                                            </li>
+                                        )
+                                    })
+                                }
+                            </ul>
+
+                        </div>
+
+                    }
+
                 </div>
             </section>
             <svg className={styles.map} id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 622.4 828.85">
