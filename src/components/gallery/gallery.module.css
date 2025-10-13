@@ -21,6 +21,7 @@
 }
 
 .slide_info {
+    z-index: 100;
     position: absolute;
     top: 60%;
     width: 100%;
@@ -63,13 +64,13 @@
 .personal {
     display: flex;
     flex-direction: column;
-    width: 450px;
+    width: 750px;
     font-weight: 600;
 }
 
 .slide_title {
-    font-size: 30px;
-    line-height: 36px;
+    font-size: 38px;
+    line-height: 44px;
     color: #fff;
     z-index: 100;
 }

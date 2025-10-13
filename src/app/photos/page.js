@@ -1,11 +1,16 @@
+'use client'
 import Image from 'next/image'
 import styles from './page.module.css'
 import Gallery from '@/components/gallery/gallery';
 import { employees } from '@/public/static/employees';
 import Line from '@/components/line/line';
+import { useEffect } from 'react';
 
 export default function Photos() {
 
+    useEffect(() => {
+        console.log(employees);
+    }, [])
 
     return (
         <main className={styles.main}>
