@@ -33,20 +33,20 @@ export default function Sheba() {
                     <Image className={styles.cat} src={cat} alt='cat' />
                 </div>
                 <div className={styles.description}>
-                    Мы признаем важность борьбы<br></br> с загрязнением водной экосистемы и принимаем меры по смягчению его последствий
+                    Мы признаём важность борьбы<br></br> с загрязнением водной экосистемы и принимаем меры по смягчению его последствий
                 </div>
                 <ul className={styles.list}>
                     <li className={styles.list__item}>
                         <Image className={styles.logo} src={logo} alt='sheba logo' />
                         <Image className={styles.image} src={qr} alt='sheba' />
                         <p className={styles.list__text}>
-                            Создаем образовательный контент
+                            Создаём образовательный контент
                         </p>
                     </li>
                     <li className={styles.list__item}>
                         <Image className={styles.image} src={stand} alt='sheba' />
                         <p className={styles.list__text}>
-                            Устанавливаем умные урны в экоцентрах и ритейле
+                            Устанавливаем умные урны в экоцентрах и ретейле
 
                         </p>
                     </li>

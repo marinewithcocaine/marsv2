@@ -45,7 +45,7 @@ export default function Whiskas() {
             </svg>
             <Image className={styles.logo} src={logo} alt="whiskas logo" />
             <p className={styles.text}>
-                Мы&nbsp;верим,&nbsp;что&nbsp;счастливых&nbsp;мурррчаний&nbsp;заслуживают&nbsp;все&nbsp;котики&nbsp;— и те, кто нашёл свой любящий дом, и те, у кого пока нет дома.
+                Мы&nbsp;верим,&nbsp;что&nbsp;счастливых&nbsp;мурррчаний&nbsp;заслуживают&nbsp;все&nbsp;котики:&nbsp; и те, кто нашёл свой любящий дом, и те, у кого пока нет дома.
             </p>
             <h2 className={styles.subtitle}>
                 С вашей помощью Whiskas® регулярно поддерживает приюты:

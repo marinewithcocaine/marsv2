@@ -41,7 +41,7 @@ export default function Perfect() {
                         ПРОГРАММЫ ПРОФИЛАКТИЧЕСКИХ ОСМОТРОВ ОТ&nbsp;ВЕТЕРИНАРНЫХ&nbsp;ВРАЧЕЙ
                     </div>
                     <div className={styles.programm__item}>
-                        ВЕТЕРИНАРНЫЕ <br></br>МЕРОПРИЯТИЯ <b>&</b><br></br>ВЫСТАВКИ
+                        ВЕТЕРИНАРНЫЕ <br></br>МЕРОПРИЯТИЯ И<br></br>ВЫСТАВКИ
                     </div>
                 </div>
                 <div className={styles.qr}>

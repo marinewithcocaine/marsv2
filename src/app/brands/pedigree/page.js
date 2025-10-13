@@ -141,7 +141,7 @@ export default function Pedigree() {
                             26 приютов и фондов
                         </p>
                         <span>
-                            стали нашими партнерами
+                            стали нашими партнёрами
                         </span>
                     </div>
                 </li>
