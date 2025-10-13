@@ -3,8 +3,6 @@ import Image from 'next/image'
 
 export default function Popup({ isOpened, onClose, project }) {
 
-    console.log(project);
-
     return (
         <div className={isOpened ? `${styles.popup_opened} ${styles.popup}` : `${styles.popup}`}>
             <div className={styles.popup__container}>
@@ -46,7 +44,7 @@ export default function Popup({ isOpened, onClose, project }) {
                 {
                     project.qr != null &&
                     <div className={styles.qr}>
-                    <Image className={styles.qr__image} src={project.qr} />
+                    <Image className={styles.qr__image} src={project.qr} alt="qr" />
                     <p className={styles.qr__text}>{project.qrtext}</p>
                     </div>
                 }

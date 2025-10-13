@@ -40,7 +40,7 @@ export const projects = [
         ],
     },
     {
-        title: 'для партнеров',
+        title: 'для партнёров',
         logos: [
             {
                 image: logos1,
