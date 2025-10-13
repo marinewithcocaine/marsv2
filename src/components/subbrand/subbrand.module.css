@@ -13,6 +13,6 @@
 
 .image_small {
     width: 276px;
-    height: 225px;
+    height: auto;
     filter: none;
 }
