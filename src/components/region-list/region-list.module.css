@@ -4,7 +4,7 @@
     list-style-type: none;
     display: flex;
     flex-direction: column;
-    row-gap: 6px;
+    justify-content: space-between;
 }
 
 .list_item {
@@ -17,6 +17,7 @@
     color: #0000A0;
     cursor: pointer;
     transition: all .3s linear;
+    font-size: 18px;
 }
 
 .list_item_active {

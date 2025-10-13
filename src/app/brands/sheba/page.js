@@ -1,3 +1,5 @@
+'use client'
+
 import Header from '@/components/header/header'
 import styles from './page.module.css'
 import fish from '../../../public/images/sheba/fish.webp'
@@ -5,12 +7,16 @@ import cat from '../../../public/images/sheba/cat.png'
 import stand from '../../../public/images/sheba/stand.png'
 import qr from '../../../public/images/sheba/qr.svg'
 import logo from '../../../public/images/sheba/logo.png'
-import Frame from '@/components/frame/frame'
+import Frame from '@/components/frame/frame';
 
 import Image from 'next/image'
+import { useState } from 'react'
 
 export default function Sheba() {
-    return (
+
+    const [popupOpened, setPopupOpened] = useState(false);
+
+        return (
         <main className={styles.main}>
             <Header link={'brands'} bg={false} />
             <section className={styles.content}>
@@ -55,10 +61,11 @@ export default function Sheba() {
                         </p>
                     </li>
                 </ul>
-                <div className={styles.link}>
+                <div className={styles.link} onClick={() => setPopupOpened(true)}>
                     Подробнее на океанпомощи.рф
                 </div>
             </section>
+            <Frame isOpen={popupOpened} onClick={() => {setPopupOpened(false)}} page={'https://sheba.ru/helpsocean/'} />
         </main>
     )
 }

@@ -15,19 +15,13 @@ export default function Home() {
     setPopupOpened(true);
   }
 
-  function frame() {
-    return (
-      <iframe className={styles.popup__frame} src='https://petcarecenter.ru/' />
-    )
-  }
-
   return (
     <main className={styles.main}>
       <section className={styles.content}>
         <BackgroundVideo className={styles.video} src={video} />
         <LinkList onclick={openPopup} />
-        <Frame isOpen={isPopupOpened} onClick={() => setPopupOpened(false)} child={frame()} />
+        <Frame isOpen={isPopupOpened} onClick={() => setPopupOpened(false)} page={'https://petcarecenter.ru/'} />
       </section>
     </main>
-  );
+  )
 }

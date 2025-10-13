@@ -3,7 +3,7 @@ import Image from 'next/image'
 
 export default function Popup({ isOpened, onClose, project }) {
 
-    console.log(project.image);
+    console.log(project);
 
     return (
         <div className={isOpened ? `${styles.popup_opened} ${styles.popup}` : `${styles.popup}`}>

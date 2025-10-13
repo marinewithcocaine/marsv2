@@ -18,26 +18,18 @@ export default function Cities() {
 
     function link1 () {
         setPopupOpened(true);
-        setLink(() => {
-            return (
-                <iframe className={styles.popup__frame} src='https://petcarecenter.ru/test/petfriendly' />
-            )
-        })
+        setLink('https://petcarecenter.ru/test/petfriendly');
     }
 
     function link2 () {
         setPopupOpened(true);
-        setLink(() => {
-            return (
-                <iframe className={styles.popup__frame} src='https://petstory.ru/pet-friendly-map/'/>
-            )
-        })
+        setLink('https://petstory.ru/pet-friendly-map/')
     }
 
     return (
         <main className={styles.main}>
             <Header />
-            <Frame isOpen={isPopupOpened} onClick={closePopup} child={link}/>
+            <Frame isOpen={isPopupOpened} onClick={closePopup} page={link}/>
             <section className={styles.content}>
                 <div className={styles.link1}>
                     <div onClick={link1} className={styles.link_container1}>

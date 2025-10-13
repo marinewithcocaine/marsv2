@@ -1,11 +1,11 @@
 import styles from './frame.module.css'
 
-export default function Frame({ isOpen, onClick, child }) {
+export default function Frame({ isOpen, onClick, page }) {
 
     return (
-        <div className={isOpen ? `${styles.popup}` : `${styles.popup_closed}`}>
+        <div className={isOpen ? `${styles.popup} ${styles.popup_opened}` : `${styles.popup}`}>
             <div className={styles.popup__container}>
-                {child}
+                <iframe className={styles.popup__frame} src={page} />
             </div>
             <div className={styles.button} onClick={onClick}>
                 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" fill-rule="evenodd">

@@ -5,10 +5,15 @@
     width: 1080px;
     height: 1920px;
     background-color: rgba(0, 0, 0, 0.3);
+    opacity: 0;
+    visibility: hidden;
+    transition: all .3s linear;
 }
 
-.popup_closed {
-    display: none;
+.popup_opened {
+    opacity: 1;
+    visibility: visible;
+    
 }
 
 .popup__container {
@@ -18,6 +23,12 @@
     width: 1000px;
     height: 1840px;
     background-color: #fff;
+}
+
+.popup__frame {
+    width: 100%;
+    height: 100%;
+    border: none;
 }
 
 .button {

@@ -1,14 +1,33 @@
+'use client'
+
 import Header from '@/components/header/header'
 import styles from './page.module.css'
 import Image from 'next/image'
 import { brands, subbrands } from '@/public/static/brands'
 import Link from 'next/link'
 import Line from '@/components/line/line'
+import { useState } from 'react'
+import Popup from '@/components/popup/popup'
+import Subbrand from '@/components/subbrand/subbrand'
 
 export default function Brands() {
+
+    const [isPopupOpened, setPopupOpened] = useState(false);
+    const [brand, setBrand] = useState({title: '', text: [], image: true});
+
+    function openPopup (brand) {
+        setBrand(brand);
+        setPopupOpened(true);
+    }
+
+    function onClose () {
+        setPopupOpened(false);
+    }
+
     return (
         <main className={styles.main}>
             <Header />
+            <Popup isOpened={isPopupOpened} project={brand} onClose={onClose}/>
             <div className={styles.container}>
                 <svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 505.43 418.06">
 
@@ -35,10 +54,7 @@ export default function Brands() {
                 {
                     subbrands.map((brand, i) => {
                         return (
-                            <li className={styles.subbrand} key={i}>
-                                <Image className={`${styles.image} ${styles.image_small} `} src={brand.image} alt={brand.link} />
-
-                            </li>
+                            <Subbrand brand={brand} handleClick={openPopup} key={i}/>
                         )
                     })
                 }

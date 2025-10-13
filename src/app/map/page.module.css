@@ -73,8 +73,7 @@
 .list {
     padding-top: 10px;
     transform: translateX(15px);
-}
-
-#zelenograd-map {
-    transform: translateX(30px);
+    display: flex;
+    flex-direction: column;
+    row-gap: 4px;
 }
