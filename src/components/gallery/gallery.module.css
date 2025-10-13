@@ -48,15 +48,15 @@
 }
 
 .slide_text::before {
-    bottom: -60px;
-    content: '“';
+    top: 60px;
+    content: '«';
     font-size: 100px;
 }
 
 .slide_text::after {
     position: absolute;
-    bottom: -60px;
-    content: '”';
+    bottom: -10px;
+    content: '»';
     font-size: 100px;
 }
 
