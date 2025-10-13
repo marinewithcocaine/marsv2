@@ -37,8 +37,8 @@
 
 .slide_text {
     position: relative;
-    font-size: 36px;
-    line-height: 42px;
+    font-size: 48px;
+    line-height: 56px;
     font-weight: 900;
 }
 
@@ -48,30 +48,16 @@
 }
 
 .slide_text::before {
-    top: 60px;
-    content: '«';
+    bottom: -60px;
+    content: '“';
     font-size: 100px;
 }
 
 .slide_text::after {
     position: absolute;
-    bottom: -10px;
-    content: '»';
+    bottom: -60px;
+    content: '”';
     font-size: 100px;
-}
-
-.slide_text sub {
-    font-size: 100px;
-    line-height: -150px;
-}
-
-.reverse {
-    display: block;
-    position: relative;
-    bottom: 0;
-    right: 0;
-    font-size: 100px;
-    transform: scale(-1, -1);
 }
 
 .personal {
