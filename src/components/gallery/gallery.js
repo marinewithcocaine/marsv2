@@ -19,7 +19,7 @@ function Gallery({ images }) {
                 loop={true}
                 slidesPerView={1}
                 autoplay={{
-                    delay: 3000,
+                    delay: 7000,
                     disableOnInteraction: false
                 }}
                 speed={1000}
