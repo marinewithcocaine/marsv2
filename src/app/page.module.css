@@ -8,10 +8,14 @@
   align-items: center;
   min-height: 100vh;
   background-color: #FFFAF0;
+  overflow: hidden;
 }
 
 .content {
   width: 1080px;
+  display: flex;
+  flex-direction: column;
+  row-gap: 30px;
 }
 
 .popup__frame {
