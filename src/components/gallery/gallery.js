@@ -1,6 +1,7 @@
 "use client"
 
 import Image from 'next/image';
+import svg from '@/public/images/photos/bg.svg';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import { Autoplay, Navigation } from 'swiper/modules';
 import styles from './gallery.module.css';
@@ -37,9 +38,7 @@ function Gallery({ images }) {
                                         {image.text}
                                     </p>
                                     <div className={styles.personal}>
-                                        <svg className={styles.mask} id="_Слой_1" data-name="Слой 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1620 1224">
-                                            <path class="cls-1" d="m1620,87.56c-351.12,144.76-695.7,150.96-1037.72,91.08C359.5,139.64,169.67-40.15,0,8.19v1215.81h1620V87.56Z" />
-                                        </svg>
+                                        <Image className={styles.mask} src={svg} alt="bg" width={1080}/>
                                         <h1 className={styles.slide_title}>
                                             {image.name}
                                         </h1>
