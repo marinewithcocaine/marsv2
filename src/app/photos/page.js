@@ -8,16 +8,12 @@ import { useEffect } from 'react';
 
 export default function Photos() {
 
-    useEffect(() => {
-        console.log(employees);
-    }, [])
-
     return (
         <main className={styles.main}>
             <Gallery images={employees} />
-            <div className={styles.line}>
+            {/* <div className={styles.line}>
                 <Line />
-            </div>
+            </div> */}
         </main>
     )
 }

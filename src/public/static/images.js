@@ -1,45 +1,3 @@
-import vk3 from '../images/vk/vk3.jpg';
-import vk5 from '../images/vk/vk5.jpg';
-import vk6 from '../images/vk/vk6.jpg';
-import zabeg1 from '../images/zabeg/zabeg1.jpeg';
-import zabeg2 from '../images/zabeg/zabeg2.jpeg';
-import pokaz1 from '../images/pokaz/pokaz1.jpg';
-import pokaz2 from '../images/pokaz/pokaz2.jpg';
-import pokaz3 from '../images/pokaz/pokaz3.jpg';
-import pokaz4 from '../images/pokaz/pokaz4.jpg';
-import pokaz5 from '../images/pokaz/pokaz5.jpeg';
-import ros from '../images/pokaz/ros.jpg';
-import intur from '../images/pokaz/intur.jpg';
-import retail from '../images/pokaz/retail.jpg';
-
-import ozon from '../images/pyat/ozon.jpg';
-import pyat from '../images/pyat/pyat.jpg';
-import pyat1 from '../images/pyat/pyat1.jpg';
-import pyat2 from '../images/pyat/pyat2.jpg';
-import pyat3 from '../images/pyat/pyat3.jpg';
-import pyat4 from '../images/pyat/pyat4.jpg';
-import book1 from '../images/book/book1.jpg';
-import book2 from '../images/book/book2.jpg';
-import book3 from '../images/book/book3.jpg';
-import book4 from '../images/book/book4.jpg';
-import urna1 from '../images/urna/urna1.jpg';
-import urna2 from '../images/urna/urna2.jpg';
-import urna3 from '../images/urna/urna3.jpg';
-import urna4 from '../images/urna/urna4.jpg';
-import volunteer1 from '../images/volunteer/volunteer1.jpg';
-import volunteer2 from '../images/volunteer/volunteer2.jpg';
-import volunteer3 from '../images/volunteer/volunteer3.jpg';
-import volunteer4 from '../images/volunteer/volunteer4.jpg';
-import volunteer5 from '../images/volunteer/volunteer5.jpeg';
-import water1 from '../images/water/water1.jpg';
-import water2 from '../images/water/water2.jpg';
-import water3 from '../images/water/water3.jpg';
-import water4 from '../images/water/water4.jpg';
-import water5 from '../images/water/water5.jpg';
-import water6 from '../images/water/water6.jpg';
-import water7 from '../images/water/water7.jpg';
-import box1 from '../images/box/box1.jpg';
-import box2 from '../images/box/box2.jpg';
 import map1 from '../images/map/map1.jpg';
 import map2 from '../images/map/map2.jpeg';
 import map3 from '../images/map/map3.jpeg';
@@ -47,13 +5,10 @@ import map4 from '../images/map/map4.jpeg';
 import map5 from '../images/map/map5.jpeg';
 import map6 from '../images/map/map6.jpeg';
 
-
-
-
 export const vkImages = [
     
     {
-        src: vk3,
+        src: 'https://306a4fe0-f395-4e5a-897b-7c0ff748b3aa.selstorage.ru/vk3.webp',
         alt: 'Mars Image',
         titles: [
             'Приняли участие в VK Fest 2024',
@@ -63,7 +18,7 @@ export const vkImages = [
         ]
     },
     {
-        src: vk5,
+        src: 'https://306a4fe0-f395-4e5a-897b-7c0ff748b3aa.selstorage.ru/vk5.webp',
         alt: 'Mars Image',
         titles: [
             'Приняли участие в VK Fest 2024',
@@ -73,7 +28,7 @@ export const vkImages = [
         ]
     },
     {
-        src: vk6,
+        src: 'https://306a4fe0-f395-4e5a-897b-7c0ff748b3aa.selstorage.ru/vk6.webp',
         alt: 'Mars Image',
         titles: [
             'Приняли участие в VK Fest 2024',
@@ -84,7 +39,7 @@ export const vkImages = [
     },
 
     {
-        src: zabeg1,
+        src: 'https://306a4fe0-f395-4e5a-897b-7c0ff748b3aa.selstorage.ru/zabeg1.webp',
         alt: 'Mars Image',
         titles: [
             'Стали главным партнером первого благотворительного забега Ленты',
@@ -95,7 +50,7 @@ export const vkImages = [
         ]
     },
     {
-        src: zabeg2,
+        src: 'https://306a4fe0-f395-4e5a-897b-7c0ff748b3aa.selstorage.ru/zabeg2.webp',
         alt: 'Mars Image',
         titles: [
             'Стали главным партнером первого благотворительного забега Ленты',
@@ -109,56 +64,56 @@ export const vkImages = [
 
 export const cinemaImages = [
     {
-        src: ros,
+        src: 'https://306a4fe0-f395-4e5a-897b-7c0ff748b3aa.selstorage.ru/ros.webp',
         alt: 'Mars Image',
         titles: [
             'В составе рабочей группы вместе с Роскачеством разработали стандарт для pet-friendly отелей',
         ]
     },
     {
-        src: pokaz5,
+        src: 'https://306a4fe0-f395-4e5a-897b-7c0ff748b3aa.selstorage.ru/pokaz5.webp',
         alt: 'Mars Image',
         titles: [
             'Провели первый dog-friendly кинопоказ ко Дню собак',
         ]
     },
     {
-        src: pokaz1,
+        src: 'https://306a4fe0-f395-4e5a-897b-7c0ff748b3aa.selstorage.ru/pokaz1.webp',
         alt: 'Mars Image',
         titles: [
             'Провели первый dog-friendly кинопоказ ко Дню собак',
         ]
     },
     {
-        src: pokaz2,
+        src: 'https://306a4fe0-f395-4e5a-897b-7c0ff748b3aa.selstorage.ru/pokaz2.webp',
         alt: 'Mars Image',
         titles: [
             'Провели первый dog-friendly кинопоказ ко Дню собак',
         ]
     },
     {
-        src: pokaz3,
+        src: 'https://306a4fe0-f395-4e5a-897b-7c0ff748b3aa.selstorage.ru/pokaz3.webp',
         alt: 'Mars Image',
         titles: [
             'Провели первый dog-friendly кинопоказ ко Дню собак',
         ]
     },
     {
-        src: pokaz4,
+        src: 'https://306a4fe0-f395-4e5a-897b-7c0ff748b3aa.selstorage.ru/pokaz4.webp',
         alt: 'Mars Image',
         titles: [
             'Провели первый dog-friendly кинопоказ ко Дню собак',
         ]
     },
     {
-        src: retail,
+        src: 'https://306a4fe0-f395-4e5a-897b-7c0ff748b3aa.selstorage.ru/retail.webp',
         alt: 'Mars Image',
         titles: [
             'Рассказали о преимуществах pet-friendly концепции на мероприятиях Retail Tech и «Интурмаркет»',
         ]
     },
     {
-        src: intur,
+        src: 'https://306a4fe0-f395-4e5a-897b-7c0ff748b3aa.selstorage.ru/intur.webp',
         alt: 'Mars Image',
         titles: [
             'Рассказали о преимуществах pet-friendly концепции на мероприятиях Retail Tech и «Интурмаркет»',
@@ -169,7 +124,7 @@ export const cinemaImages = [
 
 export const officeImages = [
     {
-        src: pyat,
+        src: 'https://306a4fe0-f395-4e5a-897b-7c0ff748b3aa.selstorage.ru/pyat.webp',
         alt: 'Mars Image',
         titles: [
             'Провели первый pet-friendly день в офисе Пятёрочки',
@@ -179,7 +134,7 @@ export const officeImages = [
         ]
     },
     {
-        src: pyat1,
+        src: 'https://306a4fe0-f395-4e5a-897b-7c0ff748b3aa.selstorage.ru/pyat1.webp',
         alt: 'Mars Image',
         titles: [
             'Провели первый pet-friendly день в офисе Пятёрочки',
@@ -189,7 +144,7 @@ export const officeImages = [
         ]
     },
     {
-        src: pyat2,
+        src: 'https://306a4fe0-f395-4e5a-897b-7c0ff748b3aa.selstorage.ru/pyat2.webp',
         alt: 'Mars Image',
         titles: [
             'Провели первый pet-friendly день в офисе Пятёрочки',
@@ -199,7 +154,7 @@ export const officeImages = [
         ]
     },
     {
-        src: pyat3,
+        src: 'https://306a4fe0-f395-4e5a-897b-7c0ff748b3aa.selstorage.ru/pyat3.webp',
         alt: 'Mars Image',
         titles: [
             'Провели первый pet-friendly день в офисе Пятёрочки',
@@ -209,7 +164,7 @@ export const officeImages = [
         ]
     },
     {
-        src: pyat4,
+        src: 'https://306a4fe0-f395-4e5a-897b-7c0ff748b3aa.selstorage.ru/pyat4.webp',
         alt: 'Mars Image',
         titles: [
             'Провели первый pet-friendly день в офисе Пятёрочки',
@@ -219,7 +174,7 @@ export const officeImages = [
         ]
     },
     {
-        src: ozon,
+        src: 'https://306a4fe0-f395-4e5a-897b-7c0ff748b3aa.selstorage.ru/ozon.webp',
         alt: 'Mars Image',
         titles: [
             'Более 1000 ПВЗ Ozon с нашей помощью стали pet-friendly',
@@ -229,7 +184,7 @@ export const officeImages = [
 
 export const bookImages = [
     {
-        src: book1,
+        src: 'https://306a4fe0-f395-4e5a-897b-7c0ff748b3aa.selstorage.ru/book1.webp',
         alt: 'Mars Image',
         titles: [
             '13 партнеров поделились экспертизой для издания, среди которых команда Программы Мэра Москвы «Мой район», Магнит, Radisson, МТС и др.',
@@ -238,17 +193,7 @@ export const bookImages = [
         ]
     },
     {
-        src: book2,
-        alt: 'Mars Image',
-        titles: [
-            '13 партнеров поделились экспертизой для издания, среди которых команда Программы Мэра Москвы «Мой район», Магнит, Radisson, МТС и др.',
-            'Более 80 публикаций в СМИ и более 70 постов в соцсетях вышло по итогам ',
-            'Более 27 млн человек – общий охват аудитории'
-
-        ]
-    },
-    {
-        src: book3,
+        src: 'https://306a4fe0-f395-4e5a-897b-7c0ff748b3aa.selstorage.ru/book2.webp',
         alt: 'Mars Image',
         titles: [
             '13 партнеров поделились экспертизой для издания, среди которых команда Программы Мэра Москвы «Мой район», Магнит, Radisson, МТС и др.',
@@ -258,7 +203,17 @@ export const bookImages = [
         ]
     },
     {
-        src: book4,
+        src: 'https://306a4fe0-f395-4e5a-897b-7c0ff748b3aa.selstorage.ru/book3.webp',
+        alt: 'Mars Image',
+        titles: [
+            '13 партнеров поделились экспертизой для издания, среди которых команда Программы Мэра Москвы «Мой район», Магнит, Radisson, МТС и др.',
+            'Более 80 публикаций в СМИ и более 70 постов в соцсетях вышло по итогам ',
+            'Более 27 млн человек – общий охват аудитории'
+
+        ]
+    },
+    {
+        src: 'https://306a4fe0-f395-4e5a-897b-7c0ff748b3aa.selstorage.ru/book4.webp',
         alt: 'Mars Image',
         titles: [
             '13 партнеров поделились экспертизой для издания, среди которых команда Программы Мэра Москвы «Мой район», Магнит, Radisson, МТС и др.',
@@ -272,7 +227,7 @@ export const bookImages = [
 
 export const waterImages = [
     {
-        src: urna1,
+        src: 'https://306a4fe0-f395-4e5a-897b-7c0ff748b3aa.selstorage.ru/urna1.webp',
         alt: 'Mars Image',
         titles: [
             '3 умных урны в торговых точках',
@@ -281,7 +236,7 @@ export const waterImages = [
         ]
     },
     {
-        src: urna2,
+        src: 'https://306a4fe0-f395-4e5a-897b-7c0ff748b3aa.selstorage.ru/urna2.webp',
         alt: 'Mars Image',
         titles: [
             '3 умных урны в торговых точках',
@@ -290,7 +245,7 @@ export const waterImages = [
         ]
     },
     {
-        src: urna3,
+        src: 'https://306a4fe0-f395-4e5a-897b-7c0ff748b3aa.selstorage.ru/urna3.webp',
         alt: 'Mars Image',
         titles: [
             '3 умных урны в торговых точках',
@@ -299,7 +254,7 @@ export const waterImages = [
         ]
     },
     {
-        src: urna4,
+        src: 'https://306a4fe0-f395-4e5a-897b-7c0ff748b3aa.selstorage.ru/urna4.webp',
         alt: 'Mars Image',
         titles: [
             '3 умных урны в торговых точках',
@@ -309,49 +264,49 @@ export const waterImages = [
     },
 
     {
-        src: water1,
+        src: 'https://306a4fe0-f395-4e5a-897b-7c0ff748b3aa.selstorage.ru/water1.webp',
         alt: 'Mars Image',
         titles: [
             'Совместный выезд c партнером на очистку реки Клязьма в подмосковье',
         ]
     },
     {
-        src: water2,
+        src: 'https://306a4fe0-f395-4e5a-897b-7c0ff748b3aa.selstorage.ru/water2.webp',
         alt: 'Mars Image',
         titles: [
             'Совместный выезд c партнером на очистку реки Клязьма в подмосковье',
         ]
     },
     {
-        src: water3,
+        src: 'https://306a4fe0-f395-4e5a-897b-7c0ff748b3aa.selstorage.ru/water3.webp',
         alt: 'Mars Image',
         titles: [
             'Совместный выезд c партнером на очистку реки Клязьма в подмосковье',
         ]
     },
     {
-        src: water4,
+        src: 'https://306a4fe0-f395-4e5a-897b-7c0ff748b3aa.selstorage.ru/water4.webp',
         alt: 'Mars Image',
         titles: [
             'Совместный выезд c партнером на очистку реки Клязьма в подмосковье',
         ]
     },
     {
-        src: water5,
+        src: 'https://306a4fe0-f395-4e5a-897b-7c0ff748b3aa.selstorage.ru/water5.webp',
         alt: 'Mars Image',
         titles: [
             'Совместный выезд c партнером на очистку реки Клязьма в подмосковье',
         ]
     },
     {
-        src: water6,
+        src: 'https://306a4fe0-f395-4e5a-897b-7c0ff748b3aa.selstorage.ru/water6.webp',
         alt: 'Mars Image',
         titles: [
             'Совместный выезд c партнером на очистку реки Клязьма в подмосковье',
         ]
     },
     {
-        src: water7,
+        src: 'https://306a4fe0-f395-4e5a-897b-7c0ff748b3aa.selstorage.ru/water7.webp',
         alt: 'Mars Image',
         titles: [
             'Совместный выезд c партнером на очистку реки Клязьма в подмосковье',
@@ -361,7 +316,7 @@ export const waterImages = [
 
 export const volunteerImages = [
     {
-        src: volunteer1,
+        src: 'https://306a4fe0-f395-4e5a-897b-7c0ff748b3aa.selstorage.ru/volunteer1.webp',
         alt: 'Mars Image',
         titles: [
             'Более 45 выездов в приюты с партнёрами в 2024-2025 году',
@@ -370,7 +325,7 @@ export const volunteerImages = [
         ]
     },
     {
-        src: volunteer2,
+        src: 'https://306a4fe0-f395-4e5a-897b-7c0ff748b3aa.selstorage.ru/volunteer2.webp',
         alt: 'Mars Image',
         titles: [
             'Более 45 выездов в приюты с партнёрами в 2024-2025 году',
@@ -379,7 +334,7 @@ export const volunteerImages = [
         ]
     },
     {
-        src: volunteer3,
+        src: 'https://306a4fe0-f395-4e5a-897b-7c0ff748b3aa.selstorage.ru/volunteer3.webp',
         alt: 'Mars Image',
         titles: [
             'Более 45 выездов в приюты с партнёрами в 2024-2025 году',
@@ -388,7 +343,7 @@ export const volunteerImages = [
         ]
     },
     {
-        src: volunteer4,
+        src: 'https://306a4fe0-f395-4e5a-897b-7c0ff748b3aa.selstorage.ru/volunteer4.webp',
         alt: 'Mars Image',
         titles: [
             'Более 45 выездов в приюты с партнёрами в 2024-2025 году',
@@ -397,7 +352,7 @@ export const volunteerImages = [
         ]
     },
     {
-        src: volunteer5,
+        src: 'https://306a4fe0-f395-4e5a-897b-7c0ff748b3aa.selstorage.ru/volunteer5.webp',
         alt: 'Mars Image',
         titles: [
             'Более 45 выездов в приюты с партнёрами в 2024-2025 году',
@@ -409,7 +364,7 @@ export const volunteerImages = [
 
 export const boxImages = [
     {
-        src: box1,
+        src: 'https://306a4fe0-f395-4e5a-897b-7c0ff748b3aa.selstorage.ru/box1.jpg',
         alt: 'Mars Image',
         titles: [
             'Более 400 коробов доброты по всей стране: Пятерочка, Лента, Перекрёсток, Мария-Ра и др.',
@@ -418,7 +373,7 @@ export const boxImages = [
         ]
     },
     {
-        src: box2,
+        src: 'https://306a4fe0-f395-4e5a-897b-7c0ff748b3aa.selstorage.ru/box2.jpg',
         alt: 'Mars Image',
         titles: [
             '>400 коробов доброты',

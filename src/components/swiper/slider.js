@@ -33,7 +33,7 @@ function Slider({ title, images, pt = '142px'}) {
                         return (
                             <SwiperSlide key={i}>
                                 <div className={styles.image_container}>
-                                    <Image src={image.src} alt={image.alt} />
+                                    <Image src={image.src} alt={image.alt} width={1920} height={1080}/>
                                 </div>
                                 <ul className={styles.slide_list}>
                                 {
