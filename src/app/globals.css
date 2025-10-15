@@ -111,3 +111,23 @@ a {
     color-scheme: dark;
   }
 }
+
+.next {
+  cursor: pointer;
+  z-index: 1000;
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 150px;
+  height: 1920px;
+}
+
+.prev {
+  cursor: pointer;
+  z-index: 1000;
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100px;
+  height: 1920px;
+}

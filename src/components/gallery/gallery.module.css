@@ -85,7 +85,7 @@
     z-index: 1;
     position: absolute;
     left: 0;
-    top: -200px;
+    top: -150px;
     fill: #FFF9EF;
     width: 1080px;
 }
@@ -101,4 +101,45 @@
 
 .icon path {
     fill: #fff;
+}
+
+.arrow_left {
+    animation: left 3s linear infinite;
+}
+@keyframes left {
+    50% {
+        transform: translateX(-5px);
+    }
+}
+
+.arrow_right {
+    animation: right 3s linear infinite;
+}
+
+@keyframes right {
+    50% {
+        transform: translateX(5px);
+    }
+}
+
+.next {
+    cursor: pointer;
+    z-index: 1000;
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 100px;
+    height: 1920px;
+    background-color: #fff;
+}
+
+.prev {
+    cursor: pointer;
+    z-index: 1000;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100px;
+    height: 1920px;
+    background-color: #fff;
 }
