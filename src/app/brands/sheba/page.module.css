@@ -7,7 +7,7 @@
     flex-direction: column;
     overflow: hidden;
     background-color: #fff;
-    background-image: url('../../../public/images//sheba/bg.png');
+    background-image: url('https://5025e9a0-572b-4a1f-ac39-9ca98b5282d1.selstorage.ru/bg-sheba.webp');
     background-size: cover;
     background-position: center;
 }

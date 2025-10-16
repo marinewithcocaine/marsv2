@@ -1,7 +1,5 @@
 import styles from './page.module.css'
 import Image from 'next/image';
-import logo from '../../../public/images/pedigree/pedigree.png';
-import dog from '../../../public/images/pedigree/dog.png';
 import bg from '../../../public/images/pedigree/bg.svg';
 import paw from '../../../public/images/pedigree/paw.png';
 
@@ -12,13 +10,13 @@ export default function Pedigree() {
         <main className={styles.main}>
             <Header link={'brands'} />
             <div className={styles.top}>
-                <Image className={styles.logo} src={logo} alt="pedigree" />
+                <Image className={styles.logo} src={'https://5025e9a0-572b-4a1f-ac39-9ca98b5282d1.selstorage.ru/logo-pedigree.webp'} alt="pedigree" width={400} height={300}/>
                 <h1 className={styles.title}>
                     Тем, кто делает<br></br> нас&nbsp;лучше™
                 </h1>
             </div>
-            <Image className={styles.bg} src={bg} alt="bg" />
-            <Image className={styles.dog} src={dog} alt='dog' />
+            <Image className={styles.bg} src={bg} alt="bg"/>
+            <Image className={styles.dog} src={'https://5025e9a0-572b-4a1f-ac39-9ca98b5282d1.selstorage.ru/dog-pedigree.webp'} alt='dog' width={500} height={700}/>
 
             <div className={styles.point_list}>
 

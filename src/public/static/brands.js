@@ -1,36 +1,25 @@
-import whiskas from '../images/brands/whiskas.png';
-import sheba from '../images/brands/sheba.png';
-import perfectfit from '../images/brands/perfectfit.png';
-import pedigree from '../images/brands/pedigree.png';
-import cesar from '../images/brands/cesar.webp';
-import chappi from '../images/brands/chappi.webp';
-import crave from '../images/brands/crave.webp';
-import dreamies from '../images/brands/dreamies.webp';
-import kitekat from '../images/brands/kitekat.webp';
-import table from '../images/brands/table.webp';
-
 export const brands = [
     {
-        image: whiskas,
+        image: 'https://5025e9a0-572b-4a1f-ac39-9ca98b5282d1.selstorage.ru/whiskas.png',
         link: 'whiskas'
     },
     {
-        image: pedigree,
+        image: 'https://5025e9a0-572b-4a1f-ac39-9ca98b5282d1.selstorage.ru/pedigree.png',
         link: 'pedigree'
     },
     {
-        image: sheba,
+        image: 'https://5025e9a0-572b-4a1f-ac39-9ca98b5282d1.selstorage.ru/sheba.png',
         link: 'sheba'
     },
     {
-        image: perfectfit,
+        image: 'https://5025e9a0-572b-4a1f-ac39-9ca98b5282d1.selstorage.ru/perfectfit.png',
         link: 'perfectfit'
     },
 ]
 
 export const subbrands = [
     {
-        image: chappi,
+        image: 'https://5025e9a0-572b-4a1f-ac39-9ca98b5282d1.selstorage.ru/chappi.webp',
         title: 'CHAPPI™',
         text: [
             'CHAPPI™ – это бренд-легенда на российском рынке кормов для собак, с более чем 30-летней историей.',
@@ -38,7 +27,7 @@ export const subbrands = [
         ]
     },
     {
-        image: cesar,
+        image: 'https://5025e9a0-572b-4a1f-ac39-9ca98b5282d1.selstorage.ru/cesar.webp',
         title: 'CESAR®',
         text: [
             'Бренд CESAR® в России – это лидер в премиальном сегменте влажных кормов для собак с фокусом на кулинарное удовольствие.',
@@ -47,7 +36,7 @@ export const subbrands = [
 
     },
     {
-        image: kitekat,
+        image: 'https://5025e9a0-572b-4a1f-ac39-9ca98b5282d1.selstorage.ru/kitekat.webp',
         title: 'KITEKAT™',
         text: [
             'KITEKAT™ – это один из самых узнаваемых и любимых брендов кормов для кошек на российском рынке, который стоял у истоков формирования категории.',
@@ -56,7 +45,7 @@ export const subbrands = [
 
     },
     {
-        image: dreamies,
+        image: 'https://5025e9a0-572b-4a1f-ac39-9ca98b5282d1.selstorage.ru/dreamies.webp',
         title: 'DREAMIES™',
         text: [
             'Бренд DREAMIES™ – самый озорной бренд в портфеле MARS Pet Nutrition и беспрекословный лидер в категории лакомств для кошек в России!'
@@ -64,7 +53,7 @@ export const subbrands = [
  
     },
     {
-        image: table,
+        image: 'https://5025e9a0-572b-4a1f-ac39-9ca98b5282d1.selstorage.ru/table.webp',
         title: 'NATURE’S TABLE™',
         text: [
             'Бренд NATURE’S TABLE™ – это первый бренд натуральных кормов для домашних животных, который стал широкодоступным для российских потребителей в канале современной розницы. ',
@@ -73,7 +62,7 @@ export const subbrands = [
 
     },
     {
-        image: crave,
+        image: 'https://5025e9a0-572b-4a1f-ac39-9ca98b5282d1.selstorage.ru/crave.webp',
         title: 'CRAVE™',
         text: [
             'Бренд CRAVE™ – самый молодой и ультра-премиальный бренд кормов для домашних животных в портфеле Mars Pet Nutrition в России.',

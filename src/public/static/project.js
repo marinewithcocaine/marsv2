@@ -17,9 +17,6 @@ import qr2 from '../images/projects/qr2.svg';
 import qr3 from '../images/projects/qr3.svg';
 import qr4 from '../images/projects/qr4.svg';
 import qr5 from '../images/projects/qr5.svg';
-import image1 from '../images/projects/image.jpg';
-import image2 from '../images/projects/image2.jpg';
-
 
 export const projects = [
     {
@@ -49,7 +46,7 @@ export const projects = [
             },
             {
                 image: logos2,
-                images: [image2, image1],
+                images: ['https://5025e9a0-572b-4a1f-ac39-9ca98b5282d1.selstorage.ru/image1-project.webp', 'https://5025e9a0-572b-4a1f-ac39-9ca98b5282d1.selstorage.ru/image2-project.webp'],
                 title: 'Business',
                 text: ['Мы обучаем наших партнёров, а также их покупателей и потребителей грамотному зооволонтерству, ответственному и осознанному владению питомцами, а также популяризируем вместе с ними pet-friendly культуру. Важный стрим в работе с партнёрами — экологические проекты, направленные на бережное отношение к природе и защиту водных ресурсов.']
 

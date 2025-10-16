@@ -1,9 +1,3 @@
-import map1 from '../images/map/map1.jpg';
-import map2 from '../images/map/map2.jpeg';
-import map3 from '../images/map/map3.jpeg';
-import map4 from '../images/map/map4.jpeg';
-import map5 from '../images/map/map5.jpeg';
-import map6 from '../images/map/map6.jpeg';
 
 export const vkImages = [
     
@@ -385,85 +379,52 @@ export const boxImages = [
 
 export const vigulImages = [
     {
-        src: map1,
-        alt: 'Mars Image',
-        titles: ['Северный'],
-        region: 'north'
+        src: 'https://61e997a3-896b-41a0-99e7-3a2f20bfa2f5.selstorage.ru/dg5.webp',
     },
     {
-        src: map2,
-        alt: 'Mars Image',
-        titles: ['Южный'],
-        region: 'south'
+        src: 'https://61e997a3-896b-41a0-99e7-3a2f20bfa2f5.selstorage.ru/dgp1.webp',
+    },
+    {
+        src: 'https://61e997a3-896b-41a0-99e7-3a2f20bfa2f5.selstorage.ru/dgp10.webp',
+    },
+    {
+        src: 'https://61e997a3-896b-41a0-99e7-3a2f20bfa2f5.selstorage.ru/dgp12.webp',
+    },
+    {
+        src: 'https://61e997a3-896b-41a0-99e7-3a2f20bfa2f5.selstorage.ru/dgp13.webp',
+    },
+    {
+        src: 'https://61e997a3-896b-41a0-99e7-3a2f20bfa2f5.selstorage.ru/dgp16.webp',
+    },
+    {
+        src: 'https://61e997a3-896b-41a0-99e7-3a2f20bfa2f5.selstorage.ru/dgp17.webp',
+    },
+    {
+        src: 'https://61e997a3-896b-41a0-99e7-3a2f20bfa2f5.selstorage.ru/dgp19.webp',
+    },
+    {
+        src: 'https://61e997a3-896b-41a0-99e7-3a2f20bfa2f5.selstorage.ru/dgp2.webp',
+    },
+    {
+        src: 'https://61e997a3-896b-41a0-99e7-3a2f20bfa2f5.selstorage.ru/dgp22.webp',
+    },
+    {
+        src: 'https://61e997a3-896b-41a0-99e7-3a2f20bfa2f5.selstorage.ru/dgp25.webp',
+    },
 
+    {
+        src: 'https://61e997a3-896b-41a0-99e7-3a2f20bfa2f5.selstorage.ru/dgp26.webp',
     },
     {
-        src: map3,
-        alt: 'Mars Image',
-        titles: ['Восточный'],
-        region: 'east'
+        src: 'https://61e997a3-896b-41a0-99e7-3a2f20bfa2f5.selstorage.ru/dgp4.webp',
     },
     {
-        src: map4,
-        alt: 'Mars Image',
-        titles: ['Западный'],
-        region: 'west'
-
+        src: 'https://61e997a3-896b-41a0-99e7-3a2f20bfa2f5.selstorage.ru/dgp6.webp',
     },
     {
-        src: map5,
-        alt: 'Mars Image',
-        titles: ['Центральный'],
-        region: 'center'
-
+        src: 'https://61e997a3-896b-41a0-99e7-3a2f20bfa2f5.selstorage.ru/dgp7.webp',
     },
     {
-        src: map6,
-        alt: 'Mars Image',
-        titles: ['Северо-Восточный'],
-        region: 'north_east'
-
-    },
-    {
-        src: map1,
-        alt: 'Mars Image',
-        titles: ['Юго-Восточный'],
-        region: 'south_east'
-
-    },
-    {
-        src: map2,
-        alt: 'Mars Image',
-        titles: ['Юго-Западный'],
-        region: 'south_west'
-
-    },
-    {
-        src: map3,
-        alt: 'Mars Image',
-        titles: ['Северо-Западный'],
-        region: 'north_west'
-
-    },
-    {
-        src: map4,
-        alt: 'Mars Image',
-        titles: ['Зеленоградский'],
-        region: 'zelenograd'
-
-    },
-    {
-        src: map5,
-        alt: 'Mars Image',
-        titles: ['Новомосковский'],
-        region: 'novomosk'
-
-    },
-    {
-        src: map6,
-        alt: 'Mars Image',
-        titles: ['Троицкий'],
-        region: 'troitsk'
-
-    },
+        src: 'https://61e997a3-896b-41a0-99e7-3a2f20bfa2f5.selstorage.ru/dgp8.webp',
+    }
 ]

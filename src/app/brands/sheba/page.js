@@ -3,8 +3,6 @@
 import Header from '@/components/header/header'
 import styles from './page.module.css'
 import fish from '../../../public/images/sheba/fish.webp'
-import cat from '../../../public/images/sheba/cat.png'
-import stand from '../../../public/images/sheba/stand.png'
 import qr from '../../../public/images/sheba/qr.svg'
 import logo from '../../../public/images/sheba/logo.png'
 import Frame from '@/components/frame/frame';
@@ -30,7 +28,7 @@ export default function Sheba() {
                             <b>ресурсах</b>
                         </h1>
                     </div>
-                    <Image className={styles.cat} src={cat} alt='cat' />
+                    <Image className={styles.cat} src={'https://5025e9a0-572b-4a1f-ac39-9ca98b5282d1.selstorage.ru/cat-sheba.webp'} alt='cat' width={500} height={500}/>
                 </div>
                 <div className={styles.description}>
                     Мы признаём важность борьбы<br></br> с загрязнением водной экосистемы и принимаем меры по смягчению его последствий
@@ -44,7 +42,7 @@ export default function Sheba() {
                         </p>
                     </li>
                     <li className={styles.list__item}>
-                        <Image className={styles.image} src={stand} alt='sheba' />
+                        <Image className={styles.image} src={'https://5025e9a0-572b-4a1f-ac39-9ca98b5282d1.selstorage.ru/stand-sheba.webp'} alt='sheba' width={200} height={400}/>
                         <p className={styles.list__text}>
                             Устанавливаем умные урны в экоцентрах и ретейле
 

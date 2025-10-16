@@ -67,7 +67,7 @@ export default function Map() {
                                 return (
                                     <SwiperSlide key={i}>
                                         <div className={styles.image_container}>
-                                            <Image className={styles.image} src={image.src} alt={image.alt} />
+                                            <Image className={styles.image} src={image.src} alt={image.alt} width={500} height={300}/>
                                         </div>
                                     </SwiperSlide>
                                 )

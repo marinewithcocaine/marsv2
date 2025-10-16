@@ -1,9 +1,5 @@
 import styles from './page.module.css'
-
 import logo from '@/public/images/whiskas/logo.webp'
-import cat1 from '@/public/images/whiskas/cat2.gif'
-import cat4 from '@/public/images/whiskas/cat4.gif'
-
 import Image from 'next/image'
 import Header from '@/components/header/header'
 
@@ -61,8 +57,8 @@ export default function Whiskas() {
                 </div>
             </div>
             <div className={styles.animation}>
-                <Image className={styles.cat} src={cat1} alt='cat' />
-                <Image className={`${styles.cat} ${styles.cat_small}`} src={cat4} alt='cat' />
+                <Image className={styles.cat} src={'https://5025e9a0-572b-4a1f-ac39-9ca98b5282d1.selstorage.ru/cat2.gif'} alt='cat' width={350} height={400}/>
+                <Image className={`${styles.cat} ${styles.cat_small}`} src={'https://5025e9a0-572b-4a1f-ac39-9ca98b5282d1.selstorage.ru/cat4.gif'} alt='cat' width={350} height={400}/>
             </div>
             <div className={styles.article}>
                 <p>

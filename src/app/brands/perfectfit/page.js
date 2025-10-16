@@ -4,8 +4,6 @@ import styles from './page.module.css'
 import Image from 'next/image';
 import logo from '../../../public/images/perfect/logo.svg';
 import qr from '../../../public/images/perfect/qr.svg';
-import dog from '../../../public/images/perfect/dog.png';
-import cat from '../../../public/images/perfect/cat.png';
 import Header from '../../../components/header/header'
 import Counter from '@/components/counter/counter';
 
@@ -50,8 +48,8 @@ export default function Perfect() {
                         ЗАПИШИТЕСЬ НА&nbsp;ОСМОТР ДЛЯ УВЕРЕННОСТИ В ЗДОРОВЬЕ ПИТОМЦА
 
                     </p>
-                    <Image className={styles.dog} src={dog} alt='dog' />
-                    <Image className={styles.cat} src={cat} alt='cat' />
+                    <Image className={styles.dog} src={'https://5025e9a0-572b-4a1f-ac39-9ca98b5282d1.selstorage.ru/dog-pf.webp'} alt='dog' width={300} height={600}/>
+                    <Image className={styles.cat} src={'https://5025e9a0-572b-4a1f-ac39-9ca98b5282d1.selstorage.ru/cat-pf.webp'} alt='cat' width={300} height={600}/>
 
                 </div>
             </section>

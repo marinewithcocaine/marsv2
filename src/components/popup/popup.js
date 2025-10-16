@@ -22,7 +22,7 @@ export default function Popup({ isOpened, onClose, project }) {
                         {
                             project.images.map((image, i) => {
                                 return(
-                                    <Image className={styles.preview} src={image} alt='dog' key={i}/>
+                                    <Image className={styles.preview} src={image} alt='dog' key={i} width={400} height={300} />
                                 )
                             })
                         }
@@ -30,7 +30,7 @@ export default function Popup({ isOpened, onClose, project }) {
                 }
                 {
                     project.images == null &&
-                    <Image className={styles.logo} src={project.image} alt="" />    
+                    <Image className={styles.logo} src={project.image} alt={project.title} width={400} height={300}/>    
                 }
                 {
                     project.text.map((elem, i) => {

@@ -1,6 +1,5 @@
 import Header from '@/components/header/header'
 import styles from './page.module.css'
-import dog from '@/public/images/volunteers/dog.webp'
 import logo from '@/public/images/volunteers/mvp.png'
 import svg from '@/public/images/volunteers/svg.svg'
 import Image from 'next/image'
@@ -16,7 +15,7 @@ export default function Volunteers() {
                 <h1 className={styles.title}>Волонтерство</h1>
             </div>
             <div className={styles.content}>
-                <Image className={styles.image} src={dog} alt="mars" />
+                <Image className={styles.image} src={'https://5025e9a0-572b-4a1f-ac39-9ca98b5282d1.selstorage.ru/dog-volunteers.webp'} alt="mars" width={925} height={590}/>
                 <svg className={styles.line} id="_Слой_1" data-name="Слой 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1163.24 203.16">
                     <path d="m1158.16,51.72c-27.76-44.21-149.44-62.26-208,32.5-45.72,73.96,30.81,151.66,72.55,91.4,49.11-70.9-4.97-217.8-165.05-153.9-147.1,58.72-360.58,172.45-579.67,168.39C102.67,186.86,21.72,137.16,3.61,123.54" />
                 </svg>

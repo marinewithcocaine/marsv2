@@ -42,7 +42,7 @@ export default function Brands() {
                         return (
                             <li className={styles.link} key={i}>
                                 <Link href={`/brands/${brand.link}`} >
-                                    <Image className={styles.image} src={brand.image} alt={brand.link} />
+                                    <Image className={styles.image} src={brand.image} alt={brand.link} width={500} height={300}/>
                                 </Link>
 
                             </li>
