@@ -28,7 +28,7 @@
     padding: 0px 75px 75px 75px;
     display: flex;
     flex-direction: column;
-    row-gap: 100px;
+    row-gap: 50px;
     color: #00009C;
     box-sizing: border-box;
     background-color: #FFF9EF;
@@ -72,14 +72,10 @@
 }
 
 .image_container img {
-    position: absolute;
-    top: 0;
-    left: 0;
     z-index: 0;
     width: 100%;
     height: 100%;
     object-fit: contain;
-    transform: translateY(-155px);
 }
 
 .mask {

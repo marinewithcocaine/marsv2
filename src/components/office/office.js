@@ -12,7 +12,7 @@ export default function Office({office}) {
                     office.images.map((image, i) => {
                         return (
                             <li key={i} className={styles.block_item}>
-                                <Image src={image.image} alt={office.title} width={1920} height={1080}/>
+                                <Image src={image.image} alt={office.title} width={286} height={195}/>
                             </li>
                         )
                     })
