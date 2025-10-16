@@ -25,10 +25,11 @@
     position: absolute;
     bottom: 0;
     width: 100%;
+    min-height: 300px;
     padding: 0px 75px 75px 75px;
     display: flex;
     flex-direction: column;
-    row-gap: 50px;
+    row-gap: 90px;
     color: #00009C;
     box-sizing: border-box;
     background-color: #FFF9EF;
