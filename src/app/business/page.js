@@ -12,15 +12,16 @@ export default function Business() {
             <Title title={'бизнес'} color={'red'} />
             <Header link={'cities'} />
             <section className={styles.swipers}>
-                <Slider title={`Мы обучаем ответственному владению питомцами`} images={vkImages} />
-                <Slider title={`Способствуем развитию pet${'\u2011'}friendly культуры`} images={cinemaImages} />
-                <Slider title={`Помогаем${'\u00A0'}офисам наших${'\u2011'}партнеров становиться pet${'\u2011'}friendly`} images={officeImages} />
-                <Slider title={`Мы выпустили первую книгу по${'\u00A0'}pet${'\u2011'}friendly культуре ${'\n'}«Вместе»`} images={bookImages} />
-                <Slider title={`Вместе с партнёрами помогаем животным в приютах`} images={volunteerImages} pt={"142px"} />
-                <Slider title={`По всей стране мы запускаем Короба доброты:`} images={boxImages} />
+                <Slider title={`Обучаем ответственному владению питомцами:`} images={vkImages} />
+                <Slider title={`Помогаем${'\u00A0'}нашим партнерам становиться pet${'\u2011'}friendly:`} images={officeImages} />
+
+                <Slider title={`Способствуем развитию pet${'\u2011'}friendly культуры в России:`} images={cinemaImages} />
+                <Slider title={`Выпустили первую книгу о${'\u00A0'}pet${'\u2011'}friendly культуре ${'\n'}«Вместе»:`} images={bookImages} />
+                <Slider title={`Вместе с партнёрами помогаем животным в приютах:`} images={volunteerImages} pt={"142px"} />
+                <Slider title={`Реализуем по всей стране  проект «Короба доброты»:`} images={boxImages} />
                 <div>
                     <p className={styles.title}>
-                        Запустили проект позащите водных ресурсов от бренда SHEBA<sup>®</sup> в сети Перекресток
+                        Запустили проект с заботой о водных ресурсах от бренда Sheba<sup>®</sup> в сети Перекресток:
 
                     </p>
                     <Slider title={''} images={waterImages} />
