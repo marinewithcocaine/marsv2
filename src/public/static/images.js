@@ -53,7 +53,18 @@ export const vkImages = [
             'Организовали pet-friendly зону на мероприятии',
             'Более 1000 человек и 64 питомца стали участниками события'
         ]
-    }
+    },
+    {
+        src: 'https://306a4fe0-f395-4e5a-897b-7c0ff748b3aa.selstorage.ru/zabeg3.webp',
+        alt: 'Mars Image',
+        titles: [
+            'Стали главным партнером первого благотворительного забега Ленты',
+            'Представили шатёр с активностями о здоровье и благополучии питомцев',
+            'Экспертно помогли Ленте организовать забег с животными',
+            'Организовали pet-friendly зону на мероприятии',
+            'Более 1000 человек и 64 питомца стали участниками события'
+        ]
+    },
 ]
 
 export const cinemaImages = [
@@ -62,6 +73,20 @@ export const cinemaImages = [
         alt: 'Mars Image',
         titles: [
             'В составе рабочей группы вместе с Роскачеством разработали стандарт для pet-friendly отелей',
+        ]
+    },
+    {
+        src: 'https://306a4fe0-f395-4e5a-897b-7c0ff748b3aa.selstorage.ru/retail.webp',
+        alt: 'Mars Image',
+        titles: [
+            'Рассказали о преимуществах pet-friendly концепции на мероприятиях Retail Tech и «Интурмаркет»',
+        ]
+    },
+    {
+        src: 'https://306a4fe0-f395-4e5a-897b-7c0ff748b3aa.selstorage.ru/intur.webp',
+        alt: 'Mars Image',
+        titles: [
+            'Рассказали о преимуществах pet-friendly концепции на мероприятиях Retail Tech и «Интурмаркет»',
         ]
     },
     {
@@ -98,21 +123,7 @@ export const cinemaImages = [
         titles: [
             'Провели первый dog-friendly кинопоказ ко Дню собак',
         ]
-    },
-    {
-        src: 'https://306a4fe0-f395-4e5a-897b-7c0ff748b3aa.selstorage.ru/retail.webp',
-        alt: 'Mars Image',
-        titles: [
-            'Рассказали о преимуществах pet-friendly концепции на мероприятиях Retail Tech и «Интурмаркет»',
-        ]
-    },
-    {
-        src: 'https://306a4fe0-f395-4e5a-897b-7c0ff748b3aa.selstorage.ru/intur.webp',
-        alt: 'Mars Image',
-        titles: [
-            'Рассказали о преимуществах pet-friendly концепции на мероприятиях Retail Tech и «Интурмаркет»',
-        ]
-    },
+    }
     
 ]
 
