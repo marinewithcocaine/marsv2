@@ -10,13 +10,13 @@ export default function Pedigree() {
         <main className={styles.main}>
             <Header link={'brands'} />
             <div className={styles.top}>
-                <Image className={styles.logo} src={'https://5025e9a0-572b-4a1f-ac39-9ca98b5282d1.selstorage.ru/logo-pedigree.webp'} alt="pedigree" width={400} height={300}/>
+                <Image className={styles.logo} src={'https://5025e9a0-572b-4a1f-ac39-9ca98b5282d1.selstorage.ru/logo-pedigree.webp'} alt="pedigree" width={400} height={300} />
                 <h1 className={styles.title}>
                     Тем, кто делает<br></br> нас&nbsp;лучше™
                 </h1>
             </div>
-            <Image className={styles.bg} src={bg} alt="bg"/>
-            <Image className={styles.dog} src={'https://5025e9a0-572b-4a1f-ac39-9ca98b5282d1.selstorage.ru/dog-pedigree.webp'} alt='dog' width={500} height={700}/>
+            <Image className={styles.bg} src={bg} alt="bg" />
+            <Image className={styles.dog} src={'https://5025e9a0-572b-4a1f-ac39-9ca98b5282d1.selstorage.ru/dog-pedigree.webp'} alt='dog' width={500} height={700} />
 
             <div className={styles.point_list}>
 
@@ -35,16 +35,15 @@ export default function Pedigree() {
                         <path class="cls-1" d="m72,0C32.3,0,0,32.2,0,72s32.2,72,72,72,72-32.2,72-72C143.9,32.2,111.7,0,72,0Zm2.7,32.6c.2-6.2,5.5-11.1,11.7-10.8s11.1,5.5,10.8,11.7c0,1.1-.2,2.1-.5,3-.4,1.2-1,2.3-1.7,3.3-1.6,2.4-4.5,6-7.7,8.6-1.6,1.3-2.7,2-3.6,2h-.1c-.2,0-.3,0-.5-.1v-.1c-.8-.3-1.7-1.3-2.8-3-2.1-3.1-3.8-6.9-4.6-9.6-.8-2.1-1-3.2-1-5Zm-18.2-10.7c6.2,0,11.3,5,11.3,11.3,0,1.8-.3,2.8-1,5-1,2.7-2.8,6.4-5,9.5-1.2,1.7-2.1,2.6-3,2.9v.1h-.6c-.9-.1-2-.8-3.5-2.1-3.2-2.7-5.9-6.4-7.4-8.9-.7-1-1.2-2.1-1.6-3.3-.3-1-.4-2-.4-3.1-.1-6.3,4.9-11.4,11.2-11.4ZM22.9,57.6c-.7-.9-1.3-1.9-1.8-3-.3-.9-.6-1.8-.7-2.8-.6-5.8,3.7-11,9.6-11.6s11,3.7,11.6,9.6c.2,1.7,0,2.7-.5,4.8-.7,2.6-2,6.2-3.9,9.3-1,1.7-1.7,2.6-2.5,3v.1c-.1.1-.3.1-.5.1h-.1c-.9,0-1.9-.6-3.5-1.7-3.2-2.4-6.1-5.6-7.7-7.8Zm88.7,47.2c-.4,2.5-1.4,4.8-2.8,6.9-1.3,2.1-2.9,3.9-4.9,5.4-1.1.8-2.2,1.8-3.5,2.4-2.2,1-4.5,1.9-6.9,2.4-2,.4-4.1.3-6.2,0-3.1-.4-6.1-1.1-9.1-1.6-2-.3-4-.7-6-.7h-3c-2,.1-4,.4-6,.7-3,.5-6.1,1.2-9.1,1.6-2,.2-4.2.3-6.2,0-2.4-.5-4.7-1.4-6.9-2.4-1.3-.5-2.3-1.5-3.5-2.4-2-1.4-3.6-3.3-4.9-5.4-1.3-2.1-2.3-4.4-2.8-6.9-.3-1.7-.7-3.3-.6-5,0-1.7.4-3.4.7-5.1.4-2.3,1.4-4.4,2.6-6.4.7-1.1,1.5-2.1,2.4-3.1,1.5-1.8,3.2-3.4,4.6-5.2.6-.7.9-1.6,1.3-2.5.4-.9.8-1.7,1.3-2.6.7-1.3,1.3-2.5,2-3.7,1.7-2.8,3.5-5.5,5.8-7.9,1.4-1.4,2.9-2.8,4.6-3.7,2.6-1.4,5.3-2.4,8.3-2.9,2.6-.4,5.3-.7,7.9-.7s5.3.3,7.9.7c3,.5,5.7,1.5,8.3,2.9,1.7,1,3.2,2.3,4.6,3.7,2.3,2.4,4.2,5.1,5.8,7.9.7,1.2,1.4,2.5,2,3.7.5.9.9,1.7,1.3,2.6.4.8.7,1.8,1.3,2.5,1.5,1.8,3.1,3.5,4.6,5.2.9,1,1.7,2,2.4,3.1,1.2,2,2.2,4.1,2.6,6.4.3,1.7.7,3.4.7,5.1.1,1.7-.3,3.4-.6,5Zm11-47c-.4,1-1,1.9-1.6,2.7-.8,1-1.7,1.8-2.8,2.5-2.4,1.8-6.4,4.2-10.5,5.5-2,.7-3.3.9-4.2.6h-.1c-.2-.1-.3-.1-.5-.2v-.1c-.7-.6-1.2-1.8-1.7-3.9-.9-3.7-1.2-7.9-1-10.9.2-2.3.3-3.4,1-5.1,2.4-5.9,9.2-8.6,15-6.2,6.1,2.5,8.9,9.3,6.4,15.1Z" />
                     </svg>
 
-                    <div className={styles.duga__bot}>
-                        <svg className={styles.duga} id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 250.25 125.1">
-                            <path id='duga' d="m.13,125.09c-.08-10.84,1.02-46.71,27.21-79.23C62.78,1.88,114.99.24,122.18.14c49.18-.71,91.63,28.26,112.44,65.72,13.06,23.5,15.29,46.19,15.51,59.24" />
-                            <text>
-                                <textPath href="#duga">
-                                    среди покупателей
-                                </textPath>
+                    <div className={`${styles.duga__bot}`}>
+                        <svg className={styles.duga} version="1.1" id="Layer_1" x="0px" y="0px" viewBox="0 0 319.7 146.1" space="preserve">
+                            <path id="SVGID_x5F_1_x5F_" class={styles.st0} d="M0,0c4.9,88.8,87.8,154.9,177.1,145.1c86.2-9.5,151.5-86.8,141.7-172.1" />
+                            <text><textPath href="#SVGID_x5F_1_x5F_" startOffset="1.9621%">
+                                <tspan className={styles.tspan}>среди покупателей</tspan></textPath>
                             </text>
                         </svg>
                     </div>
+
                 </div>
 
                 <div className={`${styles.point} ${styles.point_left}`}>
@@ -65,12 +64,11 @@ export default function Pedigree() {
                     </svg>
 
                     <div className={`${styles.duga__bot} ${styles.duga__bot_left}`}>
-                        <svg className={styles.duga} id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 250.25 125.1">
-                            <path id='duga' d="m.13,125.09c-.08-10.84,1.02-46.71,27.21-79.23C62.78,1.88,114.99.24,122.18.14c49.18-.71,91.63,28.26,112.44,65.72,13.06,23.5,15.29,46.19,15.51,59.24" />
-                            <text>
-                                <textPath href="#duga">
-                                    количеством покупателей
-                                </textPath>
+                        <svg className={styles.duga} version="1.1" id="Layer_1" x="0px" y="0px" viewBox="0 0 319.7 146.1" space="preserve">
+
+                            <path id="SVGID_x5F_1_x5F_" class={styles.st0} d="M0,0c4.9,88.8,87.8,154.9,177.1,145.1c86.2-9.5,151.5-86.8,141.7-172.1" />
+                            <text><textPath href="#SVGID_x5F_1_x5F_" startOffset="1.9621%">
+                                <tspan className={styles.tspan}>количеством покупателей</tspan></textPath>
                             </text>
                         </svg>
                     </div>
@@ -93,12 +91,11 @@ export default function Pedigree() {
                         <path class="cls-1" d="m91.7,72c0-2.8-2.3-5.1-5.1-5.1h-.9c-2.7,0-4.9,2.2-5.1,4.8h-17.3c-.1-2.7-2.3-4.8-5.1-4.8h-.9c-2.8,0-5.1,2.3-5.1,5.1v1.4c0,1.2.4,2.2,1.1,3.1-.7.9-1.1,1.9-1.1,3.1v1.4c0,2.8,2.3,5.1,5.1,5.1h.9c2.7,0,4.9-2.2,5.1-4.8h17.3c.1,2.7,2.3,4.8,5.1,4.8h.9c2.8,0,5.1-2.3,5.1-5.1v-1.4c0-1.2-.4-2.2-1.1-3.1.7-.9,1.1-1.9,1.1-3.1v-1.4Z" />
                     </svg>
                     <div className={`${styles.duga__bot} ${styles.duga__bot_right}`}>
-                        <svg className={styles.duga} id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 250.25 125.1">
-                            <path id='duga' d="m.13,125.09c-.08-10.84,1.02-46.71,27.21-79.23C62.78,1.88,114.99.24,122.18.14c49.18-.71,91.63,28.26,112.44,65.72,13.06,23.5,15.29,46.19,15.51,59.24" />
-                            <text>
-                                <textPath href="#duga">
-                                    кормов для щенков
-                                </textPath>
+                        <svg className={styles.duga} version="1.1" id="Layer_1" x="0px" y="0px" viewBox="0 0 319.7 146.1" space="preserve">
+
+                            <path id="SVGID_x5F_1_x5F_" class={styles.st0} d="M0,0c4.9,88.8,87.8,154.9,177.1,145.1c86.2-9.5,151.5-86.8,141.7-172.1" />
+                            <text><textPath href="#SVGID_x5F_1_x5F_" startOffset="1.9621%">
+                                <tspan className={styles.tspan}>кормов для щенков</tspan></textPath>
                             </text>
                         </svg>
                     </div>

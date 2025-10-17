@@ -90,6 +90,22 @@
     justify-content: center;
 }
 
+.point_top {
+    top: 580px;
+    left: 580px;
+    transform: translateX(-50%);
+}
+
+.point_left {
+    top: 720px;
+    left: 100px;
+}
+
+.point_right {
+    top: 720px;
+    right: 0px;
+}
+
 .icon {
     width: 160px;
     position: absolute;
@@ -114,22 +130,6 @@
 .icon_left {
     top: 20px;
     left: 10px;
-}
-
-.point_top {
-    top: 580px;
-    left: 50%;
-    transform: translateX(-50%);
-}
-
-.point_left {
-    top: 720px;
-    left: 100px;
-}
-
-.point_right {
-    top: 720px;
-    right: 100px;
 }
 
 .duga {
@@ -158,19 +158,28 @@
 }
 
 .duga__bot {
+    width: 300px;
     font-weight: normal;
-    rotate: 209deg;
-    transform: translateX(30px);
+    rotate: 337deg;
+    transform: translateX(18px) translateY(0px);
 }
 
 .duga__bot_left {
-    rotate: 189deg;
-    transform: translateX(20px);
+    rotate: 360deg;
+    transform: translateX(-20px) translateY(10px);
+}
+
+.duga__bot_left .duga {
+    width: 220px;
 }
 
 .duga__bot_right {
-    rotate: 209deg;
-    transform: translateX(32px);
+    rotate: 336deg;
+    transform: translateX(15px);
+}
+
+.duga__bot_left .right {
+    width: 220px;
 }
 
 .subtitle {
@@ -238,4 +247,17 @@
     100%{
         scale: 1;
     }
+}
+
+.st0 {
+    overflow: visible;
+    fill: none;
+}
+
+.tspan {
+    font-family: 'Pedigree';
+    font-weight: normal;
+    fill: #fff;
+    font-size: 34px;
+    letter-spacing: 2px;
 }
