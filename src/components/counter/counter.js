@@ -7,5 +7,5 @@ export default function Counter({ val, time }) {
       currVal !== val && setTimeout(setCurrVal, time, currVal + 1);
     }, [ currVal ]);
   
-    return <p>{currVal}</p>;
+    return <>{currVal}</>;
   }

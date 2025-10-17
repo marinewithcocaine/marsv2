@@ -12,44 +12,21 @@
 
 .content {
     width: 100%;
-    padding-top: 100px;
+    padding: 0 50px;
     position: relative;
-}
-
-.title {
-    top: 110px;
-    left: 53px;
-    position: absolute;
-    fill: #fff;
-    width: 635px;
-    animation: title ease-in-out 2s;
-}
-
-@keyframes title {
-    0% {
-        transform: translateY(100px);
-        opacity: 0;
-    }
-
-    100% {
-        transform: translateY(0px);
-        opacity: 1;
-    }
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 50px;
 }
 
 .logo {
-    width: 367px;
-    height: 285px;
-    position: absolute;
-    top: 60px;
-    right: 7px;
+    width: 500px;
+    height: auto;
 }
 
 .text {
-    position: absolute;
     width: 950px;
-    top: 450px;
-    left: 65px;
     font-size: 32px;
     line-height: 36px;
     text-align: center;
@@ -58,25 +35,18 @@
 
 .text_bottom {
     width: 900px;
-    left: 115px;
-    top: 1470px;
 }
 
 .subtitle {
-    position: absolute;
-    top: 600px;
-    width: 100%;
+    width: 600px;
     font-size: 30px;
     text-align: center;
 }
 
 .info {
     display: flex;
-    justify-content: space-between;
-    position: absolute;
-    top: 610px;
-    width: 1080px;
-    padding: 70px;
+    width: 100%;
+    justify-content: space-around;
     justify-items: stretch;
 }
 
@@ -106,66 +76,22 @@
     text-align: center;
 }
 
-.animation {
-    position: absolute;
-    top: 800px;
-    display: flex;
-    justify-content: space-between;
-    width: 100%;
-    padding: 0px 80px;
+.title {
+    padding-top: 200px;
+    align-self: flex-start;
+    fill: #fff;
+    width: 435px;
+    animation: title ease-in-out 2s;
 }
 
-.cat {
-    width: 500px;
-    height: 400px;
-}
+@keyframes title {
+    0% {
+        transform: translateY(100px);
+        opacity: 0;
+    }
 
-.cat_small {
-    width: 300px;
-    height: 225px;
-    align-self: flex-end;
-}
-
-.article {
-    position: absolute;
-    top: 1250px;
-    display: flex;
-    width: 100%;
-    justify-content: center;
-}
-
-.article p {
-    padding: 0;
-    margin: 0;
-    font-size: 140px;
-    line-height: 90px;
-    color: #FFC828;
-    font-weight: lighter;
-}
-
-.article span {
-    padding-top: 10px;
-    font-size: 22px;
-    line-height: 28px;
-    width: 130px;
-    text-transform: uppercase;
-}
-
-.span {
-    position: absolute;
-    top: 1340px;
-    color: #FFC828;
-    text-transform: uppercase;
-    font-size: 20px;
-    letter-spacing: 0.7px;
-    width: 100%;
-    text-align: center;
-}
-
-.bottom {
-    position: absolute;
-    top: 1650px;
-    width: 100%;
-    text-align: center;
-    font-size: 40px;
+    100% {
+        transform: translateY(0px);
+        opacity: 1;
+    }
 }

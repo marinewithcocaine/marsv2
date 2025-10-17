@@ -17,7 +17,7 @@ export default function Home() {
   return (
     <main className={styles.main}>
       <section className={styles.content}>
-        <BackgroundVideo className={styles.video} src={'https://c02929e3-a4b9-4b2b-8aad-0bb85fe18283.selstorage.ru/000_FIN_2.mp4'} />
+        <BackgroundVideo className={styles.video} src={'http://pictdesign.ru/wp-content/uploads/2025/10/video.mp4'} />
         <LinkList onclick={openPopup} />
         <Frame isOpen={isPopupOpened} onClick={() => setPopupOpened(false)} page={'https://petcarecenter.ru/'} />
       </section>

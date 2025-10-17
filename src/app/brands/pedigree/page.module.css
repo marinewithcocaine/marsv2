@@ -150,10 +150,12 @@
 }
 
 .duga__top_left {
+    transform: translateY(10px);
     rotate: 9deg;
 }
 
 .duga__top_right {
+    transform: translateX(5px);
     rotate: 3deg;
 }
 
@@ -175,7 +177,7 @@
 
 .duga__bot_right {
     rotate: 336deg;
-    transform: translateX(15px);
+    transform: translateX(20px);
 }
 
 .duga__bot_left .right {
