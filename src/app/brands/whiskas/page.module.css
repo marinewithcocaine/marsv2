@@ -17,8 +17,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    row-gap: 50px;
-    transform: translateY(-150px);
+    transform: translateY(-50px);
 }
 
 .logo {
@@ -27,7 +26,7 @@
 }
 
 .text {
-    padding-bottom: 50px;
+    padding-bottom: 80px;
     width: 950px;
     font-size: 36px;
     line-height: 43px;
@@ -40,6 +39,7 @@
 }
 
 .subtitle {
+    padding-bottom: 40px;
     width: 700px;
     font-size: 36px;
     line-height: 43px;
@@ -52,6 +52,7 @@
     width: 100%;
     justify-content: space-around;
     justify-items: stretch;
+    padding-bottom: 50px;
 }
 
 .info__block {
