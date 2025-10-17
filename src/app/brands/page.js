@@ -3,7 +3,7 @@
 import Header from '@/components/header/header'
 import styles from './page.module.css'
 import Image from 'next/image'
-import { brands, subbrands } from '@/public/static/brands'
+import { brands, subbrands } from '@/public/static/brandstest'
 import Link from 'next/link'
 import Line from '@/components/line/line'
 import { useState } from 'react'

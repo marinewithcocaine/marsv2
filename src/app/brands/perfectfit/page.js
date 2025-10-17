@@ -23,11 +23,11 @@ export default function Perfect() {
                 </h2>
                 <ul className={styles.list}>
                     <li className={styles.list__item}>
-                        <div><Counter val={500} time={1}/></div>
+                        <div><p><Counter val={500} time={1}/></p></div>
                         <span>клиник</span>
                     </li>
                     <li className={styles.list__item}>
-                        <div><Counter val={15000} time={0.3}/><b>+</b></div>
+                        <div><p><Counter val={15000} time={0.3}/></p><b>+</b></div>
                         <span>контактов</span>
                     </li>
                 </ul>
