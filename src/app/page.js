@@ -1,11 +1,8 @@
-'use client'
-
 import styles from "./page.module.css";
 import LinkList from "@/components/link-list/link-list";
 import Frame from "@/components/frame/frame";
 import { useState } from "react";
 import BackgroundVideo from 'next-video/background-video';
-import { unstable_ViewTransition as ViewTransition } from 'react'
 
 export default function Home() {
 
