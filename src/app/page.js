@@ -5,6 +5,7 @@ import LinkList from "@/components/link-list/link-list";
 import Frame from "@/components/frame/frame";
 import { useState } from "react";
 import BackgroundVideo from 'next-video/background-video';
+import { unstable_ViewTransition as ViewTransition } from 'react'
 
 export default function Home() {
 
@@ -17,9 +18,12 @@ export default function Home() {
   return (
     <main className={styles.main}>
       <section className={styles.content}>
-        <BackgroundVideo className={styles.video} src={'http://pictdesign.ru/wp-content/uploads/2025/10/000_FIN_2_low1.mp4'} />
-        <LinkList onclick={openPopup} />
-        <Frame isOpen={isPopupOpened} onClick={() => setPopupOpened(false)} page={'https://petcarecenter.ru/'} />
+        <ViewTransition>
+          <BackgroundVideo className={styles.video} src={'http://pictdesign.ru/wp-content/uploads/2025/10/000_FIN_3_low.mp4'} />
+          <LinkList onclick={openPopup} />
+          <Frame isOpen={isPopupOpened} onClick={() => setPopupOpened(false)} page={'https://petcarecenter.ru/'} />
+
+        </ViewTransition>
       </section>
     </main>
   )

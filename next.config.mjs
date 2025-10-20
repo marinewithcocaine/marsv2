@@ -6,7 +6,10 @@ const nextConfig = {
     trailingSlash: true,
     images: {
         unoptimized: true
-    }
+    },
+    experimental: {
+        viewTransition: true,
+      },
 };
 
 export default withNextVideo(nextConfig);

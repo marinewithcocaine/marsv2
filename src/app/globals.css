@@ -125,3 +125,7 @@ a {
   width: 100px;
   height: 1920px;
 }
+
+@view-transition {
+  navigation: auto;
+}
