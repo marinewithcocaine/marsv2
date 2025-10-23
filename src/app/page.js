@@ -1,7 +1,10 @@
+'use client'
+
 import styles from "./page.module.css";
 import LinkList from "@/components/link-list/link-list";
 import Frame from "@/components/frame/frame";
 import BackgroundVideo from 'next-video/background-video';
+import { useState } from "react";
 
 export default function Home() {
 

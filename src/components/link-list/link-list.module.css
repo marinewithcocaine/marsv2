@@ -102,7 +102,7 @@
 }
 
 .link:nth-child(2n) .link_text {
-    left: 130px;
+    left: 135px;
 }
 
 .link:nth-child(5) .link_text {
@@ -116,7 +116,6 @@
 }
 
 .link_violet {
-    /* background-image: url('../../public/images/main/dog1.webp'); */
     background-color: #B7198F;
     background-position: bottom -1px left;
 }
